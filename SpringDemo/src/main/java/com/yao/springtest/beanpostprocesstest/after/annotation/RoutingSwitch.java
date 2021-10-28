@@ -5,9 +5,11 @@ import org.springframework.stereotype.Component;
 import java.lang.annotation.*;
 
 /**
+ * 通过注解的值来决定是哪个子类
  * @author xiao.K
  * @date 2021/10/27
  */
+
 @Target({ElementType.FIELD,ElementType.TYPE, ElementType.METHOD})
 @Retention(RetentionPolicy.RUNTIME)
 @Documented

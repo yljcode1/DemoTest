@@ -6,6 +6,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 
 /**
+ * 通过getVersion的值来判断获取哪一个接口的实现
+ *
  * @author xiao.K
  * @date 2021/10/27
  */
