@@ -1,0 +1,8 @@
+# 环境隔离，使用 namespace
+# 开发环境
+nacos:
+  server-addr: nacos-inner.shiduai.com:80
+  username: nacos
+  password: Shidu2020+
+  namespace: 644b60ae-408b-4919-9a63-0356c13d5655
+  group: SHIDU_CLOUD_GROUP

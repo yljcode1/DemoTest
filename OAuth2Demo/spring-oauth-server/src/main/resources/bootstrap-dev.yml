@@ -1,0 +1,6 @@
+nacos:
+  server-addr: nacos-dev.shiduai.com:80
+  username: nacos
+  password: DFAZNHsU18FzWkqEc3Ag
+  namespace: 60ae661b-59ca-492e-93dd-649ef766b469
+  group: SHIDU_CLOUD_GROUP

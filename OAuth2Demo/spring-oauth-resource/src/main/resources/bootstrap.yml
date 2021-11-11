@@ -1,0 +1,34 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: oauth-server
+  main:
+    allow-bean-definition-overriding: true
+  cloud:
+    nacos:
+      username: ${nacos.username}
+      password: ${nacos.password}
+      discovery:
+        enabled: true
+        register-enabled: true
+        server-addr: ${nacos.server-addr}
+        namespace: ${nacos.namespace}
+        group: ${nacos.group}
+        metadata:
+          V: 1.0
+      config:
+        server-addr: ${nacos.server-addr}
+        namespace: ${nacos.namespace}
+        shared-configs:
+          - data-id: common-mysql.yaml
+            group: ${nacos.group}
+
+          - data-id: common-redis.yaml
+            group: ${nacos.group}
+
+          - data-id: common-mq.yaml
+            group: ${nacos.group}
+
+          - data-id: common-base.yaml
+            group: ${nacos.group}
