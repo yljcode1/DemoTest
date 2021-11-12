@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="seata-business" />
+        <module name="JavaDemo" />
         <module name="SpringDemo" />
         <module name="SpringSecurityDemo" />
         <module name="spring-oauth-resource" />
@@ -25,6 +26,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="JavaDemo" options="-parameters" />
       <module name="OAuth2Demo" options="-parameters" />
       <module name="SpringDemo" options="-parameters" />
       <module name="SpringSecurityDemo" options="-parameters" />

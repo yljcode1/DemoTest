@@ -18,6 +18,7 @@
         <module>SpringSecurityDemo</module>
         <module>designmodel</module>
         <module>springcloudDemo</module>
+        <module>Java</module>
     </modules>
 
     <properties>
