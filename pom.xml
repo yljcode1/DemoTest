@@ -16,6 +16,8 @@
         <module>SpringDemo</module>
         <module>OAuth2Demo</module>
         <module>SpringSecurityDemo</module>
+        <module>designmodel</module>
+        <module>springcloudDemo</module>
     </modules>
 
     <properties>

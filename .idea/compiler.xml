@@ -7,20 +7,35 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="seata-business" />
         <module name="SpringDemo" />
         <module name="SpringSecurityDemo" />
-        <module name="spring-oauth-server" />
         <module name="spring-oauth-resource" />
+        <module name="designmodel" />
+        <module name="seata-order" />
+        <module name="spring-oauth-server" />
+        <module name="seata-storage" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="shidu-example-seata-business" target="1.5" />
+      <module name="shidu-example-seata-order" target="1.5" />
+      <module name="shidu-example-seata-storage" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="OAuth2Demo" options="-parameters" />
       <module name="SpringDemo" options="-parameters" />
       <module name="SpringSecurityDemo" options="-parameters" />
+      <module name="designmodel" options="-parameters" />
+      <module name="seata-business" options="-parameters" />
+      <module name="seata-order" options="-parameters" />
+      <module name="seata-storage" options="-parameters" />
       <module name="spring-oauth-resource" options="-parameters" />
       <module name="spring-oauth-server" options="-parameters" />
+      <module name="springcloud-seata" options="-parameters" />
+      <module name="springcloudDemo" options="-parameters" />
     </option>
   </component>
 </project>
