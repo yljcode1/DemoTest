@@ -18,7 +18,8 @@
         <module>SpringSecurityDemo</module>
         <module>designmodel</module>
         <module>springcloudDemo</module>
-        <module>Java</module>
+        <module>JavaDemo</module>
+        <module>mybatisDemo</module>
     </modules>
 
     <properties>
@@ -30,7 +31,6 @@
         <spring.cloud.alibaba.version>2021.1</spring.cloud.alibaba.version>
         <spring-boot-alibaba.version>1.0.0</spring-boot-alibaba.version>
 
-
         <spring-cloud-oauth2.version>2.2.5.RELEASE</spring-cloud-oauth2.version>
         <spring-cloud-security.version>2.2.1.RELEASE</spring-cloud-security.version>
 
@@ -38,7 +38,9 @@
         <mysql-connector5.version>5.1.47</mysql-connector5.version>
         <mysql-connector8.version>8.0.25</mysql-connector8.version>
         <mybatis-plus.version>3.4.3.1</mybatis-plus.version>
-
+        <mybatis.version>3.5.7</mybatis.version>
+        <ognl.verion>3.2.6</ognl.verion>
+        <hsqldb.version>2.4.0</hsqldb.version>
 
         <lombok.version>1.18.12</lombok.version>
         <hutool.version>5.7.5</hutool.version>
@@ -76,8 +78,29 @@
             <!-- Spring Boot -->
 
             <!-- openfeign -->
+            <!--mybatis-->
+            <dependency>
+                <groupId>org.mybatis</groupId>
+                <artifactId>mybatis</artifactId>
+                <version>${mybatis.version}</version>
+            </dependency>
 
 
+            <!--ognl-->
+            <dependency>
+                <groupId>ognl</groupId>
+                <artifactId>ognl</artifactId>
+                <version>${ognl.verion}</version>
+                <scope>compile</scope>
+                <optional>true</optional>
+            </dependency>
+
+            <dependency>
+                <groupId>org.hsqldb</groupId>
+                <artifactId>hsqldb</artifactId>
+                <version>${hsqldb.version}</version>
+                <scope>test</scope>
+            </dependency>
             <dependency>
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-starter-oauth2</artifactId>

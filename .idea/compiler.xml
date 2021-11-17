@@ -14,6 +14,7 @@
         <module name="spring-oauth-resource" />
         <module name="designmodel" />
         <module name="seata-order" />
+        <module name="mybatisDemo" />
         <module name="spring-oauth-server" />
         <module name="seata-storage" />
       </profile>
@@ -31,6 +32,7 @@
       <module name="SpringDemo" options="-parameters" />
       <module name="SpringSecurityDemo" options="-parameters" />
       <module name="designmodel" options="-parameters" />
+      <module name="mybatisDemo" options="-parameters" />
       <module name="seata-business" options="-parameters" />
       <module name="seata-order" options="-parameters" />
       <module name="seata-storage" options="-parameters" />
