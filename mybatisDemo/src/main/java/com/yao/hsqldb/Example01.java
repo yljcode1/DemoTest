@@ -1,6 +1,5 @@
 package com.yao.hsqldb;
 
-import com.sun.xml.internal.ws.policy.AssertionSet;
 import com.yao.hsqldb.util.DBInitUtils;
 import com.yao.hsqldb.util.IOUtils;
 import org.apache.ibatis.datasource.unpooled.UnpooledDataSource;
@@ -10,12 +9,12 @@ import org.apache.ibatis.jdbc.SqlRunner;
 import org.junit.Test;
 
 import javax.sql.DataSource;
-import java.io.IOException;
 import java.io.InputStream;
 import java.sql.*;
 import java.util.List;
 import java.util.Map;
 import java.util.Properties;
+import java.util.ServiceLoader;
 
 /**
  * @author xiaoK
@@ -115,6 +114,16 @@ public class Example01 {
         unpooledDataSourceFactory.setProperties(properties);
         DataSource dataSource = unpooledDataSourceFactory.getDataSource();
         connection = dataSource.getConnection();
-        AccessSqlForEach(connection.createStatement(),"select * from user");
+        AccessSqlForEach(connection.createStatement(), "select * from user");
+    }
+
+    /**
+     * 找出驱动
+     */
+    @Test
+    public void testSPI() {
+        for (Driver driver : ServiceLoader.load(Driver.class)) {
+            System.out.println(driver.toString());
+        }
     }
 }
