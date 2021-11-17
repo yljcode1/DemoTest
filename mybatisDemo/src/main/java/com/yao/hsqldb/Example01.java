@@ -5,6 +5,7 @@ import com.yao.hsqldb.util.IOUtils;
 import org.apache.ibatis.datasource.unpooled.UnpooledDataSource;
 import org.apache.ibatis.datasource.unpooled.UnpooledDataSourceFactory;
 import org.apache.ibatis.io.Resources;
+import org.apache.ibatis.jdbc.SQL;
 import org.apache.ibatis.jdbc.SqlRunner;
 import org.junit.Test;
 
@@ -125,5 +126,25 @@ public class Example01 {
         for (Driver driver : ServiceLoader.load(Driver.class)) {
             System.out.println(driver.toString());
         }
+    }
+
+    @Test
+    public void testWrapper() throws Exception {
+        Statement statement = connection.createStatement();
+        Class<?> aClass = Class.forName("java.sql.Driver");
+        if (statement.isWrapperFor(aClass)) {
+
+        }
+    }
+
+    @Test
+    public void testRowSet() {
+        String newSql = new SQL() {
+            {
+                SELECT("p.id,p.username,p.password,p.full_name");
+                SELECT("p.lastName,p.createOn");
+                FROM("person p");
+            }
+        }.toString();
     }
 }
