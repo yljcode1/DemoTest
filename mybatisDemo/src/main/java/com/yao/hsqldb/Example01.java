@@ -119,7 +119,7 @@ public class Example01 {
     }
 
     /**
-     * 找出驱动
+     * 找出驱动SPI
      */
     @Test
     public void testSPI() {

@@ -2,6 +2,7 @@ package com.yao.hsqldb;
 
 import com.yao.hsqldb.factory.ObjectFactory;
 import org.apache.ibatis.reflection.ReflectionException;
+import org.junit.Test;
 
 import java.lang.reflect.Constructor;
 import java.util.*;
@@ -22,6 +23,11 @@ public class DefaultObjectFactory implements ObjectFactory {
         return (T) instantiateClass(classToCreate, constructorArgType, consturctorArgs);
     }
 
+    public static void main(String[] args) {
+        DefaultObjectFactory defaultObjectFactory = new DefaultObjectFactory();
+        DefaultObjectFactory defaultObjectFactory1 = defaultObjectFactory.instantiateClass(DefaultObjectFactory.class, null, null);
+        System.out.println(defaultObjectFactory1.toString());
+    }
     private <T> T instantiateClass(Class<T> type, List<Class<?>> constructorArgTypes, List<Object> constructorArgs) {
         try {
             Constructor<T> constructor;
@@ -59,6 +65,12 @@ public class DefaultObjectFactory implements ObjectFactory {
 
     }
 
+    @Test
+    public void testresolveInterface(){
+        Class<?> aClass = resolveInterface(Collection.class);
+        System.out.println(aClass);
+
+    }
     private <T> Class<?> resolveInterface(Class<T> type) {
         Class<?> classToCreate;
         if (type == List.class || type == Collection.class || type == Iterable.class) {
