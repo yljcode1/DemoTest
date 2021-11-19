@@ -8,14 +8,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="JavaDemo" />
+        <module name="springcloud-seata-at-storage" />
         <module name="SpringDemo" />
-        <module name="SpringSecurityDemo" />
-        <module name="shidu-example-seata-storage" />
         <module name="spring-oauth-resource" />
         <module name="springcloud-seata-at-business" />
+        <module name="spring-oauth-server" />
+        <module name="shidu-example-seata-tcc-order" />
+        <module name="SpringSecurityDemo" />
         <module name="designmodel" />
         <module name="mybatisDemo" />
-        <module name="spring-oauth-server" />
+        <module name="springcloud-seata-at-order" />
+        <module name="shidu-example-seata-tcc-business" />
+        <module name="shidu-example-seata-tcc-storage" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -24,6 +28,7 @@
       <module name="seata-storage" target="8" />
       <module name="shidu-example-seata-business" target="1.5" />
       <module name="shidu-example-seata-order" target="8" />
+      <module name="shidu-example-seata-storage" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -39,11 +44,14 @@
       <module name="seata-storage" options="-parameters" />
       <module name="shidu-example-seata-order" options="-parameters" />
       <module name="shidu-example-seata-storage" options="-parameters" />
+      <module name="shidu-example-seata-tcc-storage" options="-parameters" />
       <module name="spring-oauth-resource" options="-parameters" />
       <module name="spring-oauth-server" options="-parameters" />
       <module name="springcloud-seata" options="-parameters" />
       <module name="springcloud-seata-at" options="-parameters" />
       <module name="springcloud-seata-at-business" options="-parameters" />
+      <module name="springcloud-seata-at-order" options="-parameters" />
+      <module name="springcloud-seata-at-storage" options="-parameters" />
       <module name="springcloudDemo" options="-parameters" />
     </option>
   </component>

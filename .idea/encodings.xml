@@ -13,5 +13,6 @@
     <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/springcloud-seata-at/springcloud-seata-at-business/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/springcloud-seata-at/springcloud-seata-at-order/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/springcloud-seata-at/springcloud-seata-at-storage/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/springcloud-seata-tcc/springcloud-seata-tcc-storage/src/main/java" charset="UTF-8" />
   </component>
 </project>
