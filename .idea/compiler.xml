@@ -7,22 +7,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="seata-business" />
         <module name="JavaDemo" />
         <module name="SpringDemo" />
         <module name="SpringSecurityDemo" />
+        <module name="shidu-example-seata-storage" />
         <module name="spring-oauth-resource" />
+        <module name="springcloud-seata-at-business" />
         <module name="designmodel" />
-        <module name="seata-order" />
         <module name="mybatisDemo" />
         <module name="spring-oauth-server" />
-        <module name="seata-storage" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="seata-business" target="8" />
+      <module name="seata-order" target="8" />
+      <module name="seata-storage" target="8" />
       <module name="shidu-example-seata-business" target="1.5" />
-      <module name="shidu-example-seata-order" target="1.5" />
-      <module name="shidu-example-seata-storage" target="1.5" />
+      <module name="shidu-example-seata-order" target="8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -36,9 +37,13 @@
       <module name="seata-business" options="-parameters" />
       <module name="seata-order" options="-parameters" />
       <module name="seata-storage" options="-parameters" />
+      <module name="shidu-example-seata-order" options="-parameters" />
+      <module name="shidu-example-seata-storage" options="-parameters" />
       <module name="spring-oauth-resource" options="-parameters" />
       <module name="spring-oauth-server" options="-parameters" />
       <module name="springcloud-seata" options="-parameters" />
+      <module name="springcloud-seata-at" options="-parameters" />
+      <module name="springcloud-seata-at-business" options="-parameters" />
       <module name="springcloudDemo" options="-parameters" />
     </option>
   </component>

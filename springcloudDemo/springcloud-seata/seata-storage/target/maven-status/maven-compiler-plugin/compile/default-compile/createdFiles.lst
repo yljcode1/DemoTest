@@ -1,5 +1,0 @@
-com\shidu\example\storage\model\Storage.class
-com\shidu\example\storage\ShiduExampleSeataStorageApplication.class
-com\shidu\example\storage\mapper\StorageMapper.class
-com\shidu\example\storage\service\impl\StorageServiceImpl.class
-com\shidu\example\storage\service\StorageService.class
