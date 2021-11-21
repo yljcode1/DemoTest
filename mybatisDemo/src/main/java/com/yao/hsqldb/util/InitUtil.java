@@ -11,6 +11,9 @@ import org.junit.Test;
 import java.io.IOException;
 import java.io.InputStream;
 
+/**
+ * 获取到sqlSession的两种方法
+ */
 public class InitUtil {
     @Test
     public void testMybatis() throws IOException {
