@@ -7,11 +7,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="springcloud-seata-tcc-order" />
         <module name="JavaDemo" />
         <module name="springcloud-seata-at-storage" />
         <module name="SpringDemo" />
         <module name="spring-oauth-resource" />
         <module name="springcloud-seata-at-business" />
+        <module name="springcloud-seata-tcc-storage" />
         <module name="spring-oauth-server" />
         <module name="shidu-example-seata-tcc-order" />
         <module name="SpringSecurityDemo" />
@@ -19,6 +21,7 @@
         <module name="mybatisDemo" />
         <module name="springcloud-seata-at-order" />
         <module name="shidu-example-seata-tcc-business" />
+        <module name="springcloud-seata-tcc-business" />
         <module name="shidu-example-seata-tcc-storage" />
       </profile>
     </annotationProcessing>
@@ -52,6 +55,9 @@
       <module name="springcloud-seata-at-business" options="-parameters" />
       <module name="springcloud-seata-at-order" options="-parameters" />
       <module name="springcloud-seata-at-storage" options="-parameters" />
+      <module name="springcloud-seata-tcc-business" options="-parameters" />
+      <module name="springcloud-seata-tcc-order" options="-parameters" />
+      <module name="springcloud-seata-tcc-storage" options="-parameters" />
       <module name="springcloudDemo" options="-parameters" />
     </option>
   </component>
