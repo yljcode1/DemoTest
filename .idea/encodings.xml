@@ -14,10 +14,12 @@
     <file url="file://$PROJECT_DIR$/designmodel/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatisDemo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatisDemo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/springcloud-seata-at/springcloud-seata-at-business/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/springcloud-seata-at/springcloud-seata-at-order/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/springcloud-seata-at/springcloud-seata-at-order/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/springcloud-seata-at/springcloud-seata-at-storage/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/springcloud-seata-at/springcloud-seata-at-storage/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/springcloud-seata-saga/springcloud-seata-saga-business/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/springcloud-seata-tcc/springcloud-seata-tcc-business/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/springcloud-seata-tcc/springcloud-seata-tcc-business/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/springcloud-seata-tcc/springcloud-seata-tcc-order/src/main/java" charset="UTF-8" />

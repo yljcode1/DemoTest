@@ -18,6 +18,7 @@
         <module name="shidu-example-seata-tcc-order" />
         <module name="SpringSecurityDemo" />
         <module name="designmodel" />
+        <module name="springcloud-seata-saga-business" />
         <module name="mybatisDemo" />
         <module name="springcloud-seata-at-order" />
         <module name="shidu-example-seata-tcc-business" />
@@ -32,6 +33,7 @@
       <module name="shidu-example-seata-business" target="1.5" />
       <module name="shidu-example-seata-order" target="8" />
       <module name="shidu-example-seata-storage" target="8" />
+      <module name="spring-cloud-seata-saga-business" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -55,6 +57,8 @@
       <module name="springcloud-seata-at-business" options="-parameters" />
       <module name="springcloud-seata-at-order" options="-parameters" />
       <module name="springcloud-seata-at-storage" options="-parameters" />
+      <module name="springcloud-seata-saga" options="-parameters" />
+      <module name="springcloud-seata-saga-business" options="-parameters" />
       <module name="springcloud-seata-tcc-business" options="-parameters" />
       <module name="springcloud-seata-tcc-order" options="-parameters" />
       <module name="springcloud-seata-tcc-storage" options="-parameters" />
