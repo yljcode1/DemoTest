@@ -1,8 +1,10 @@
 package com.yao.hsqldb.util;
 
+import org.apache.ibatis.datasource.unpooled.UnpooledDataSourceFactory;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.jdbc.ScriptRunner;
 
+import javax.sql.DataSource;
 import java.io.IOException;
 import java.io.Reader;
 import java.sql.Connection;
@@ -52,5 +54,24 @@ public class DBInitUtils {
             e.printStackTrace();
         }
         return connection;
+    }
+
+    // 获取读取配置文件获取Connection的两种方式
+
+    public static Connection getPropertiesConnection() throws Exception {
+
+        Properties properties = new Properties();
+        properties.load(Resources.getResourceAsStream("database.properties"));
+
+        return DriverManager.getConnection("url", properties);
+    }
+
+    public static Connection getFactoryConnection() throws Exception {
+        Properties properties = new Properties();
+        properties.load(Resources.getResourceAsStream("database.properties"));
+        UnpooledDataSourceFactory unpooledDataSourceFactory =  new UnpooledDataSourceFactory();
+        unpooledDataSourceFactory.setProperties(properties);
+        DataSource dataSource = unpooledDataSourceFactory.getDataSource();
+        return dataSource.getConnection();
     }
 }
