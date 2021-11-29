@@ -20,6 +20,7 @@
         <module>springcloudDemo</module>
         <module>JavaDemo</module>
         <module>mybatisDemo</module>
+        <module>Es</module>
     </modules>
 
     <properties>

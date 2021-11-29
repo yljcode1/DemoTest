@@ -15,6 +15,7 @@
         <module name="springcloud-seata-at-business" />
         <module name="springcloud-seata-tcc-storage" />
         <module name="spring-oauth-server" />
+        <module name="Es" />
         <module name="shidu-example-seata-tcc-order" />
         <module name="SpringSecurityDemo" />
         <module name="designmodel" />
@@ -38,6 +39,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Es" options="-parameters" />
       <module name="JavaDemo" options="-parameters" />
       <module name="OAuth2Demo" options="-parameters" />
       <module name="SpringDemo" options="-parameters" />
