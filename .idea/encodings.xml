@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/Es/es/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/Es/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Es/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/JavaDemo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/JavaDemo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/OAuth2Demo/spring-oauth-resource/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/OAuth2Demo/spring-oauth-resource/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/OAuth2Demo/spring-oauth-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/OAuth2Demo/spring-oauth-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OAuth2Demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OAuth2Demo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringDemo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringSecurityDemo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringSecurityDemo/src/main/resources" charset="UTF-8" />
@@ -20,12 +24,25 @@
     <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/springcloud-seata-at/springcloud-seata-at-order/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/springcloud-seata-at/springcloud-seata-at-storage/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/springcloud-seata-at/springcloud-seata-at-storage/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/springcloud-seata-at/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/springcloud-seata-at/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/springcloud-seata-saga/springcloud-seata-saga-business/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/springcloud-seata-saga/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/springcloud-seata-saga/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/springcloud-seata-tcc/springcloud-seata-tcc-business/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/springcloud-seata-tcc/springcloud-seata-tcc-business/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/springcloud-seata-tcc/springcloud-seata-tcc-order/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/springcloud-seata-tcc/springcloud-seata-tcc-order/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/springcloud-seata-tcc/springcloud-seata-tcc-storage/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/springcloud-seata-tcc/springcloud-seata-tcc-storage/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/springcloud-seata-tcc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/springcloud-seata-tcc/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloudDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloudDemo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-starter-parent/2.4.8/src/main/resources" charset="UTF-8" />
   </component>
 </project>
