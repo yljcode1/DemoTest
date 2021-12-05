@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/designmodel/pom.xml" />
         <option value="$PROJECT_DIR$/JavaDemo/pom.xml" />
         <option value="$PROJECT_DIR$/Es/es/pom.xml" />
+        <option value="$PROJECT_DIR$/Es/es-springboot/pom.xml" />
       </list>
     </option>
   </component>
