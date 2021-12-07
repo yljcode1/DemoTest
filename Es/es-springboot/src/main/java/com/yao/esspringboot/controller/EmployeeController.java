@@ -5,20 +5,15 @@ import com.yao.esspringboot.repository.EmployRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.elasticsearch.action.update.UpdateRequest;
-import org.elasticsearch.action.update.UpdateRequestBuilder;
-import org.elasticsearch.index.query.QueryBuilder;
-import org.elasticsearch.index.query.QueryBuilders;
-import org.elasticsearch.index.query.TermQueryBuilder;
-import org.elasticsearch.index.reindex.UpdateByQueryRequest;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.data.elasticsearch.core.ElasticsearchRestTemplate;
 import org.springframework.data.elasticsearch.core.IndexOperations;
+import org.springframework.data.elasticsearch.core.SearchHit;
 import org.springframework.data.elasticsearch.core.SearchHits;
 import org.springframework.data.elasticsearch.core.mapping.IndexCoordinates;
 import org.springframework.data.elasticsearch.core.query.Criteria;
 import org.springframework.data.elasticsearch.core.query.CriteriaQuery;
-import org.springframework.data.elasticsearch.core.query.NativeSearchQuery;
 import org.springframework.data.elasticsearch.core.query.UpdateQuery;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -101,13 +96,17 @@ public class EmployeeController {
 
     /**
      * 数据查询
+     * @return
      */
-    @GetMapping("/get/doc")
-    public List<Employee> queryMathList(String field,String value){
+    @GetMapping("/get/doc1")
+    public List<Object> queryMathList(String field, String value){
         final Criteria criteria = Criteria.where(field).is(value);
         final CriteriaQuery criteriaQuery = new CriteriaQuery(criteria);
         criteriaQuery.addCriteria(Criteria.where(field).is(value));
         CriteriaQuery.fromQuery(criteriaQuery);
         final SearchHits<Employee> search = restTemplate.search(criteriaQuery, Employee.class);
+        final SearchHit<Employee> searchHit = search.getSearchHit(1);
+        final List<Object> sortValues = searchHit.getSortValues();
+        return sortValues;
     }
 }

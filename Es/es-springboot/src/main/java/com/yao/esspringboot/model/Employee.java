@@ -12,11 +12,13 @@ import org.springframework.data.annotation.Id;
 import org.springframework.data.elasticsearch.annotations.Document;
 import org.springframework.data.elasticsearch.annotations.Field;
 import org.springframework.data.elasticsearch.annotations.FieldType;
+import org.springframework.data.elasticsearch.annotations.Setting;
 
 @Data
 @NoArgsConstructor
 @Accessors(chain = true)
-@Document(indexName = "employee_index_1",shards = 1,replicas = 0)
+@Document(indexName = "employee_index_4",shards = 1,replicas = 0, createIndex = false)
+@Setting
 public class Employee {
     @Id
     private String id;
@@ -32,13 +34,13 @@ public class Employee {
     /**
      * 员工简历
      */
-    @Field(type = FieldType.Text, analyzer = "ik_max_word")
+    @Field(type = FieldType.Text)
     private String desc;
 
     /**
      * 员工住址
      */
-    @Field(type = FieldType.Text, analyzer = "ik_max_word")
+    @Field(type = FieldType.Text)
     private Integer type;
 
     /**
