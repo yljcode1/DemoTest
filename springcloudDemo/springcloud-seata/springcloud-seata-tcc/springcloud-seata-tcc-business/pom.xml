@@ -63,13 +63,6 @@
             <artifactId>seata-spring-boot-starter</artifactId>
             <version>1.3.0</version>
         </dependency>
-
-        <!--openfeign-->
-        <dependency>
-            <groupId>com.shiduai.cloud</groupId>
-            <artifactId>shidu-starter-feign</artifactId>
-            <version>1.0.1-SNAPSHOT</version>
-        </dependency>
     </dependencies>
 
 </project>

@@ -14,8 +14,9 @@
         <module name="spring-oauth-resource" />
         <module name="springcloud-seata-at-business" />
         <module name="springcloud-seata-tcc-storage" />
+        <module name="springcloud-seata-saga-bussiness" />
         <module name="spring-oauth-server" />
-        <module name="Es" />
+        <module name="es" />
         <module name="shidu-example-seata-tcc-order" />
         <module name="SpringSecurityDemo" />
         <module name="designmodel" />
@@ -24,6 +25,7 @@
         <module name="springcloud-seata-at-order" />
         <module name="shidu-example-seata-tcc-business" />
         <module name="springcloud-seata-tcc-business" />
+        <module name="es-springboot" />
         <module name="shidu-example-seata-tcc-storage" />
       </profile>
     </annotationProcessing>
@@ -45,6 +47,8 @@
       <module name="SpringDemo" options="-parameters" />
       <module name="SpringSecurityDemo" options="-parameters" />
       <module name="designmodel" options="-parameters" />
+      <module name="es" options="-parameters" />
+      <module name="es-springboot" options="-parameters" />
       <module name="mybatisDemo" options="-parameters" />
       <module name="seata-business" options="-parameters" />
       <module name="seata-order" options="-parameters" />
@@ -61,6 +65,7 @@
       <module name="springcloud-seata-at-storage" options="-parameters" />
       <module name="springcloud-seata-saga" options="-parameters" />
       <module name="springcloud-seata-saga-business" options="-parameters" />
+      <module name="springcloud-seata-saga-bussiness" options="-parameters" />
       <module name="springcloud-seata-tcc-business" options="-parameters" />
       <module name="springcloud-seata-tcc-order" options="-parameters" />
       <module name="springcloud-seata-tcc-storage" options="-parameters" />
