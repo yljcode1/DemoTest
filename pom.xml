@@ -38,7 +38,7 @@
 
         <mysql-connector5.version>5.1.47</mysql-connector5.version>
         <mysql-connector8.version>8.0.25</mysql-connector8.version>
-        <mybatis-plus.version>3.4.3.1</mybatis-plus.version>
+        <dynamic-datasource.version>3.5.0</dynamic-datasource.version>
         <mybatis.version>3.5.7</mybatis.version>
         <ognl.verion>3.2.6</ognl.verion>
         <hsqldb.version>2.4.0</hsqldb.version>

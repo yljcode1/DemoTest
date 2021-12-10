@@ -12,6 +12,8 @@
         <option value="$PROJECT_DIR$/JavaDemo/pom.xml" />
         <option value="$PROJECT_DIR$/Es/es/pom.xml" />
         <option value="$PROJECT_DIR$/Es/es-springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatisplus/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatisplus/dyDataSource/pom.xml" />
       </list>
     </option>
   </component>

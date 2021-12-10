@@ -2,6 +2,8 @@ com\yao\springtest\beanpostprocesstest\after\annotation\RoutingSwitch.class
 com\yao\springtest\beanpostprocesstest\after\factory\RoutingBeanProxyFactory.class
 com\yao\springtest\buildertest\entity\User.class
 com\yao\springtest\scheduletest\gocode\ScheduleTest.class
+com\yao\springtest\methodinterceptortest\InterceptorConfig.class
+com\yao\springtest\methodinterceptortest\MethodInterceptorTest.class
 com\yao\springtest\beanpostprocesstest\before\service\impl\HelloServiceImplV1.class
 com\yao\springtest\buildertest\entity\User$UserBuild.class
 com\yao\springtest\beanpostprocesstest\after\service\HelloService.class

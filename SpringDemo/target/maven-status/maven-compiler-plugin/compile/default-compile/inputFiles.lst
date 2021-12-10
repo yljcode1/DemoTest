@@ -1,3 +1,4 @@
+D:\Project\Java\MyDemo\SpringDemo\src\main\java\com\yao\springtest\methodinterceptortest\InterceptorConfig.java
 D:\Project\Java\MyDemo\SpringDemo\src\main\java\com\yao\springtest\beanpostprocesstest\after\annotation\RoutingInjected.java
 D:\Project\Java\MyDemo\SpringDemo\src\main\java\com\yao\springtest\beanpostprocesstest\before\service\HelloService.java
 D:\Project\Java\MyDemo\SpringDemo\src\main\java\com\yao\springtest\beanpostprocesstest\BeanPostProcessTest.java
@@ -10,5 +11,6 @@ D:\Project\Java\MyDemo\SpringDemo\src\main\java\com\yao\springtest\buildertest\e
 D:\Project\Java\MyDemo\SpringDemo\src\main\java\com\yao\springtest\beanpostprocesstest\after\annotation\RoutingSwitch.java
 D:\Project\Java\MyDemo\SpringDemo\src\main\java\com\yao\springtest\beanpostprocesstest\after\processor\RoutingBeanPostProcessor.java
 D:\Project\Java\MyDemo\SpringDemo\src\main\java\com\yao\springtest\beanpostprocesstest\before\controller\HelloController.java
+D:\Project\Java\MyDemo\SpringDemo\src\main\java\com\yao\springtest\methodinterceptortest\MethodInterceptorTest.java
 D:\Project\Java\MyDemo\SpringDemo\src\main\java\com\yao\springtest\beanpostprocesstest\after\service\HelloService.java
 D:\Project\Java\MyDemo\SpringDemo\src\main\java\com\yao\springtest\beanpostprocesstest\before\service\impl\HelloServiceImplV1.java

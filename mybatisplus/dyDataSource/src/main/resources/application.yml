@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    dynamic:
+      strict: false
+      primary: master
+      datasource:
+        master:
+          url: jdbc:mysql://localhost:3306/mytest01
+          username: root
+          password: sd1104sd
+          driver-class-name: com.mysql.jdbc.Driver
+        slave_1:
+          url:  jdbc:mysql://mysql-cloud-dev.shiduai.com:3306/mytest01?useUnicode=true&characterEncoding=utf-8&useSSL=false&serverTimezone=Asia/Shanghai
+          username: root
+          password: 2LgXYF368ugpPbeJRNNf
