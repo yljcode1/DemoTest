@@ -20,6 +20,8 @@
         <module name="springcloud-seata-at-business (1)" />
         <module name="shidu-example-seata-tcc-order" />
         <module name="SpringSecurityDemo" />
+        <module name="springcloud-seata-at-business (2)" />
+        <module name="rocketmq-demo" />
         <module name="designmodel" />
         <module name="springcloud-seata-saga-business" />
         <module name="mybatisDemo" />
@@ -54,6 +56,7 @@
       <module name="es-springboot" options="-parameters" />
       <module name="mybatisDemo" options="-parameters" />
       <module name="mybatisplus" options="-parameters" />
+      <module name="rocketmq-demo" options="-parameters" />
       <module name="seata-business" options="-parameters" />
       <module name="seata-order" options="-parameters" />
       <module name="seata-storage" options="-parameters" />
@@ -66,6 +69,7 @@
       <module name="springcloud-seata-at" options="-parameters" />
       <module name="springcloud-seata-at-business" options="-parameters" />
       <module name="springcloud-seata-at-business (1)" options="-parameters" />
+      <module name="springcloud-seata-at-business (2)" options="-parameters" />
       <module name="springcloud-seata-at-order" options="-parameters" />
       <module name="springcloud-seata-at-storage" options="-parameters" />
       <module name="springcloud-seata-saga" options="-parameters" />

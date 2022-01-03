@@ -76,7 +76,11 @@
                 <type>pom</type>
                 <scope>import</scope>
             </dependency>
-
+            <dependency>
+                <groupId>cn.hutool</groupId>
+                <artifactId>hutool-all</artifactId>
+                <version>5.7.17</version>
+            </dependency>
             <!-- Spring Boot -->
 
             <!-- openfeign -->
@@ -121,28 +125,28 @@
 
             <!-- 数据源相关 -->
 
-<!--            <dependency>-->
-<!--                <groupId>com.baomidou</groupId>-->
-<!--                <artifactId>mybatis-plus-boot-starter</artifactId>-->
-<!--                <version>${mybatis-plus.version}</version>-->
-<!--            </dependency>-->
-<!--            <dependency>-->
-<!--                <groupId>com.baomidou</groupId>-->
-<!--                <artifactId>mybatis-plus-annotation</artifactId>-->
-<!--                <version>${mybatis-plus.version}</version>-->
-<!--            </dependency>-->
-<!--            <dependency>-->
-<!--                <groupId>com.baomidou</groupId>-->
-<!--                <artifactId>mybatis-plus-extension</artifactId>-->
-<!--                <version>${mybatis-plus.version}</version>-->
-<!--            </dependency>-->
+            <!--            <dependency>-->
+            <!--                <groupId>com.baomidou</groupId>-->
+            <!--                <artifactId>mybatis-plus-boot-starter</artifactId>-->
+            <!--                <version>${mybatis-plus.version}</version>-->
+            <!--            </dependency>-->
+            <!--            <dependency>-->
+            <!--                <groupId>com.baomidou</groupId>-->
+            <!--                <artifactId>mybatis-plus-annotation</artifactId>-->
+            <!--                <version>${mybatis-plus.version}</version>-->
+            <!--            </dependency>-->
+            <!--            <dependency>-->
+            <!--                <groupId>com.baomidou</groupId>-->
+            <!--                <artifactId>mybatis-plus-extension</artifactId>-->
+            <!--                <version>${mybatis-plus.version}</version>-->
+            <!--            </dependency>-->
 
 
-<!--            <dependency>-->
-<!--                <groupId>org.redisson</groupId>-->
-<!--                <artifactId>redisson</artifactId>-->
-<!--                <version>${redisson.version}</version>-->
-<!--            </dependency>-->
+            <!--            <dependency>-->
+            <!--                <groupId>org.redisson</groupId>-->
+            <!--                <artifactId>redisson</artifactId>-->
+            <!--                <version>${redisson.version}</version>-->
+            <!--            </dependency>-->
 
 
             <!-- others -->

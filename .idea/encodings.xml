@@ -13,6 +13,8 @@
     <file url="file://$PROJECT_DIR$/OAuth2Demo/spring-oauth-resource/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/OAuth2Demo/spring-oauth-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/OAuth2Demo/spring-oauth-server/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OAuth2Demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/OAuth2Demo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringDemo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringSecurityDemo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SpringSecurityDemo/src/main/resources" charset="UTF-8" />
@@ -21,17 +23,32 @@
     <file url="file://$PROJECT_DIR$/mybatisDemo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatisDemo/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mybatisplus/dyDataSource/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatisplus/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mybatisplus/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rocketmq-demo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/springcloud-seata-at/springcloud-seata-at-business/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/springcloud-seata-at/springcloud-seata-at-order/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/springcloud-seata-at/springcloud-seata-at-order/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/springcloud-seata-at/springcloud-seata-at-storage/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/springcloud-seata-at/springcloud-seata-at-storage/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/springcloud-seata-at/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/springcloud-seata-at/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/springcloud-seata-saga/springcloud-seata-saga-business/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/springcloud-seata-saga/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/springcloud-seata-saga/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/springcloud-seata-tcc/springcloud-seata-tcc-business/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/springcloud-seata-tcc/springcloud-seata-tcc-business/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/springcloud-seata-tcc/springcloud-seata-tcc-order/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/springcloud-seata-tcc/springcloud-seata-tcc-order/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/springcloud-seata-tcc/springcloud-seata-tcc-storage/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/springcloud-seata-tcc/springcloud-seata-tcc-storage/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/springcloud-seata-tcc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/springcloud-seata-tcc/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloudDemo/springcloud-seata/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloudDemo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/springcloudDemo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>
 </project>
