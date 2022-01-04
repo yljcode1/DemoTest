@@ -22,7 +22,11 @@ public class SyncConsumer {
         // 订阅Topic
         consumerGroup1.subscribe("Topic", "*");
         // 负载均衡模式消费
+        // 广播模式和负载均衡模式
+        // 广播模式: 多个消费者将接收到生产者所有的的消息，负载均衡：分别消费部分消息,默认负载均衡
         consumerGroup1.setMessageModel(MessageModel.CLUSTERING);
+        //广播模式
+//        consumerGroup1.setMessageModel(MessageModel.BROADCASTING);
         // 注册回调函数，处理消息
         consumerGroup1.registerMessageListener(new MessageListenerConcurrently() {
             @Override
