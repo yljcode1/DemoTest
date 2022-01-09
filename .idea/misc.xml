@@ -15,6 +15,7 @@
         <option value="$PROJECT_DIR$/mybatisplus/pom.xml" />
         <option value="$PROJECT_DIR$/mybatisplus/dyDataSource/pom.xml" />
         <option value="$PROJECT_DIR$/rocketmq-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/rocketmq-demo/producer/pom.xml" />
       </list>
     </option>
   </component>
