@@ -22,6 +22,7 @@
         <module name="shidu-example-seata-tcc-business" />
         <module name="es-springboot" />
         <module name="shidu-example-seata-tcc-storage" />
+        <module name="consumer" />
         <module name="JavaDemo" />
         <module name="springcloud-seata-at-storage" />
         <module name="spring-oauth-resource" />
@@ -52,6 +53,7 @@
       <module name="OAuth2Demo" options="-parameters" />
       <module name="SpringDemo" options="-parameters" />
       <module name="SpringSecurityDemo" options="-parameters" />
+      <module name="consumer" options="-parameters" />
       <module name="designmodel" options="-parameters" />
       <module name="dyDataSource" options="-parameters" />
       <module name="es" options="-parameters" />
