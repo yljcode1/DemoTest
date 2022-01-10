@@ -10,6 +10,7 @@ import org.apache.rocketmq.common.message.Message;
 import org.apache.rocketmq.remoting.exception.RemotingException;
 
 import java.nio.charset.StandardCharsets;
+import java.util.concurrent.TimeUnit;
 
 /**
  * 发送异步消息
@@ -49,6 +50,7 @@ public class AsyncProducer {
                 }
             });
         }
+        countDownLatch2.await(5, TimeUnit.SECONDS);
         // 关闭producer
         producer.shutdown();
     }
