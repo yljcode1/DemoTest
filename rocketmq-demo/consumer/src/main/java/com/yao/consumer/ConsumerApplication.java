@@ -14,22 +14,17 @@ public class ConsumerApplication {
         SpringApplication.run(ConsumerApplication.class, args);
     }
 
-    @Slf4j
-    @Service
     @RocketMQMessageListener(topic = "test-topic-1", consumerGroup = "consumer-group")
     public class MyConsumer1 implements RocketMQListener<String> {
         @Override
         public void onMessage(String s) {
-            log.info("received message: {}", s);
         }
     }
 
-    @Slf4j
     @Service
     @RocketMQMessageListener(topic = "test-topic-2", consumerGroup = "my-consumer_test-topic-2")
     public class MyConsumer2 implements RocketMQListener<String> {
         public void onMessage(String orderPaidEvent) {
-            log.info("received orderPaidEvent: {}", orderPaidEvent);
         }
     }
 }
