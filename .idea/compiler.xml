@@ -23,6 +23,7 @@
         <module name="es-springboot" />
         <module name="shidu-example-seata-tcc-storage" />
         <module name="consumer" />
+        <module name="es-java" />
         <module name="JavaDemo" />
         <module name="springcloud-seata-at-storage" />
         <module name="spring-oauth-resource" />
@@ -57,6 +58,7 @@
       <module name="designmodel" options="-parameters" />
       <module name="dyDataSource" options="-parameters" />
       <module name="es" options="-parameters" />
+      <module name="es-java" options="-parameters" />
       <module name="es-springboot" options="-parameters" />
       <module name="mybatisDemo" options="-parameters" />
       <module name="mybatisplus" options="-parameters" />
