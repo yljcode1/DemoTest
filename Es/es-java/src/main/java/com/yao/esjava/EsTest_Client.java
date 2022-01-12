@@ -21,18 +21,5 @@ public class EsTest_Client {
         RestHighLevelClient client = new RestHighLevelClient(
                 RestClient.builder(new HttpHost("localhost", 9200, "http"))
         );
-        // 创建索引
-        CreateIndexRequest request = new CreateIndexRequest("user");
-        // 得到返回值
-        CreateIndexResponse createIndexResponse = client.indices().create(request, RequestOptions.DEFAULT);
-        // 响应状态
-        boolean acknowledged = createIndexResponse.isAcknowledged();
-        log.info("索引操作:{}", acknowledged);
-        // 关闭ES客户端
-        try {
-            client.close();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
     }
 }
