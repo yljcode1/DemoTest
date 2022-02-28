@@ -20,7 +20,7 @@ import java.io.IOException;
 public class ESTest_Doc_Query {
     public static void main(String[] args) throws IOException {
         RestHighLevelClient esClient = new RestHighLevelClient(RestClient.builder(new HttpHost("localhost", 9200, "http")));
-        // 查询数据
+        // 全量查询
         SearchRequest request = new SearchRequest();
         request.indices("user");
         SearchRequest source = request.source(new SearchSourceBuilder().query(QueryBuilders.matchAllQuery()));
@@ -28,6 +28,10 @@ public class ESTest_Doc_Query {
         SearchHits hits = search.getHits();
         System.out.println(hits.getTotalHits());
         System.out.println(search.getTook());
+
+        // 条件查询
+
+        esClient.search(request.source(new SearchSourceBuilder().query(QueryBuilders.termQuery("age", 29))), RequestOptions.DEFAULT);
     }
 
 }

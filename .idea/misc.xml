@@ -18,6 +18,7 @@
         <option value="$PROJECT_DIR$/rocketmq-demo/producer/pom.xml" />
         <option value="$PROJECT_DIR$/rocketmq-demo/consumer/pom.xml" />
         <option value="$PROJECT_DIR$/Es/es-java/pom.xml" />
+        <option value="$PROJECT_DIR$/currentDemo/pom.xml" />
       </list>
     </option>
   </component>

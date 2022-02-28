@@ -29,6 +29,7 @@
         <module name="spring-oauth-resource" />
         <module name="spring-oauth-server" />
         <module name="es" />
+        <module name="currentDemo" />
         <module name="shidu-example-seata-tcc-order" />
         <module name="springcloud-seata-at-business (2)" />
         <module name="producer" />
@@ -55,6 +56,7 @@
       <module name="SpringDemo" options="-parameters" />
       <module name="SpringSecurityDemo" options="-parameters" />
       <module name="consumer" options="-parameters" />
+      <module name="currentDemo" options="-parameters" />
       <module name="designmodel" options="-parameters" />
       <module name="dyDataSource" options="-parameters" />
       <module name="es" options="-parameters" />
