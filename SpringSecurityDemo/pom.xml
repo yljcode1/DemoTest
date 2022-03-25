@@ -8,7 +8,6 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <artifactId>SpringSecurityDemo</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
     <name>SpringSecurityDemo</name>
     <description>SpringSecurityDemo</description>
     <properties>

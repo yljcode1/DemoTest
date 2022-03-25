@@ -17,4 +17,5 @@ com\yao\springtest\beanpostprocesstest\before\service\HelloService.class
 com\yao\springtest\beanpostprocesstest\after\factory\RoutingBeanProxyFactory$FunctionSwitch.class
 com\yao\springtest\beanpostprocesstest\before\service\impl\HelloServiceImplV2.class
 com\yao\springtest\beanpostprocesstest\after\annotation\RoutingInjected.class
+com\yao\springtest\scheduletest\gocode\Task01.class
 com\yao\springtest\beanpostprocesstest\after\processor\RoutingBeanPostProcessor.class

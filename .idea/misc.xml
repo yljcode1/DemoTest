@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringSecurityDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/OAuth2Demo/spring-oauth-server/pom.xml" />
+        <option value="$PROJECT_DIR$/OAuth2Demo/spring-oauth-resource/pom.xml" />
+        <option value="$PROJECT_DIR$/designmodel/pom.xml" />
+        <option value="$PROJECT_DIR$/JavaDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/Es/es/pom.xml" />
+        <option value="$PROJECT_DIR$/Es/es-springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatisplus/pom.xml" />
+        <option value="$PROJECT_DIR$/mybatisplus/dyDataSource/pom.xml" />
+        <option value="$PROJECT_DIR$/rocketmq-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/rocketmq-demo/producer/pom.xml" />
+        <option value="$PROJECT_DIR$/rocketmq-demo/consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/Es/es-java/pom.xml" />
+        <option value="$PROJECT_DIR$/currentDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/gatewayDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/api/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="corretto-1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/../MyDemo/out" />
+  </component>
+</project>

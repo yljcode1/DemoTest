@@ -22,9 +22,10 @@
         <module>mybatisDemo</module>
         <module>Es</module>
         <module>mybatisplus</module>
-        <module>mybatisDemo</module>
         <module>rocketmq-demo</module>
         <module>currentDemo</module>
+        <module>gatewayDemo</module>
+        <module>api</module>
     </modules>
 
     <properties>
@@ -38,18 +39,22 @@
 
         <spring-cloud-oauth2.version>2.2.5.RELEASE</spring-cloud-oauth2.version>
         <spring-cloud-security.version>2.2.1.RELEASE</spring-cloud-security.version>
+        <spring-cloud-nacos.version>2.2.0.RELEASE</spring-cloud-nacos.version>
+        <spring-cloud-gateway.version>>3.1.1</spring-cloud-gateway.version>
 
-
+        <version>0.0.1-SNAPSHOT</version>
         <mysql-connector5.version>5.1.47</mysql-connector5.version>
         <mysql-connector8.version>8.0.25</mysql-connector8.version>
         <dynamic-datasource.version>3.5.0</dynamic-datasource.version>
         <mybatis.version>3.5.7</mybatis.version>
+        <mybatis-plus.version>3.4.3</mybatis-plus.version>
         <ognl.verion>3.2.6</ognl.verion>
         <hsqldb.version>2.4.0</hsqldb.version>
+        <rocket-mq.verision>2.2.0</rocket-mq.verision>
 
         <elasticsearch-data.version>7.15.2</elasticsearch-data.version>
         <lombok.version>1.18.12</lombok.version>
-        <hutool.version>5.7.5</hutool.version>
+        <hutool.version>5.7.17</hutool.version>
 
         <commons-io.version>2.11.0</commons-io.version>
         <commons-lang3.version>3.11</commons-lang3.version>
@@ -83,7 +88,7 @@
             <dependency>
                 <groupId>cn.hutool</groupId>
                 <artifactId>hutool-all</artifactId>
-                <version>5.7.17</version>
+                <version>${hutool.version}</version>
             </dependency>
             <!-- Spring Boot -->
 
@@ -127,66 +132,90 @@
                 <version>${spring-cloud-oauth2.version}</version>
             </dependency>
 
-            <!-- 数据源相关 -->
-
-            <!--            <dependency>-->
-            <!--                <groupId>com.baomidou</groupId>-->
-            <!--                <artifactId>mybatis-plus-boot-starter</artifactId>-->
-            <!--                <version>${mybatis-plus.version}</version>-->
-            <!--            </dependency>-->
-            <!--            <dependency>-->
-            <!--                <groupId>com.baomidou</groupId>-->
-            <!--                <artifactId>mybatis-plus-annotation</artifactId>-->
-            <!--                <version>${mybatis-plus.version}</version>-->
-            <!--            </dependency>-->
-            <!--            <dependency>-->
-            <!--                <groupId>com.baomidou</groupId>-->
-            <!--                <artifactId>mybatis-plus-extension</artifactId>-->
-            <!--                <version>${mybatis-plus.version}</version>-->
-            <!--            </dependency>-->
-
-
-            <!--            <dependency>-->
-            <!--                <groupId>org.redisson</groupId>-->
-            <!--                <artifactId>redisson</artifactId>-->
-            <!--                <version>${redisson.version}</version>-->
-            <!--            </dependency>-->
-
-
-            <!-- others -->
-            <!-- lombok -->
-
             <dependency>
-                <groupId>org.projectlombok</groupId>
-                <artifactId>lombok</artifactId>
-                <version>${lombok.version}</version>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-nacos-discovery</artifactId>
+                <version>${spring-cloud-nacos.version}</version>
             </dependency>
-
             <dependency>
-                <groupId>cn.hutool</groupId>
-                <artifactId>hutool-all</artifactId>
-                <version>${hutool.version}</version>
+                <groupId>com.alibaba.cloud</groupId>
+                <artifactId>spring-cloud-alibaba-nacos-config</artifactId>
+                <version>${spring-cloud-nacos.version}</version>
             </dependency>
-
             <dependency>
-                <groupId>commons-io</groupId>
-                <artifactId>commons-io</artifactId>
-                <version>${commons-io.version}</version>
-            </dependency>
-
-            <dependency>
-                <groupId>org.apache.commons</groupId>
-                <artifactId>commons-lang3</artifactId>
-                <version>${commons-lang3.version}</version>
-            </dependency>
-            <!-- 用来支持 log4j2 中的 Async -->
-        </dependencies>
-    </dependencyManagement>
-
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-bootstrap</artifactId>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-gateway</artifactId>
+                <version>${spring-cloud-gateway.version}</version>
         </dependency>
+        <!--            数据源相关-->
+
+                    <dependency>
+                        <groupId>com.baomidou</groupId>
+                        <artifactId>mybatis-plus-boot-starter</artifactId>
+                        <version>${mybatis-plus.version}</version>
+                    </dependency>
+            <dependency>
+                <groupId>org.apache.rocketmq</groupId>
+                <artifactId>rocketmq-spring-boot-starter</artifactId>
+                <version>${rocket-mq.verision}</version>
+            </dependency>
+
+        <!--            <dependency>-->
+        <!--                <groupId>com.baomidou</groupId>-->
+        <!--                <artifactId>mybatis-plus-annotation</artifactId>-->
+        <!--                <version>${mybatis-plus.version}</version>-->
+        <!--            </dependency>-->
+        <!--            <dependency>-->
+        <!--                <groupId>com.baomidou</groupId>-->
+        <!--                <artifactId>mybatis-plus-extension</artifactId>-->
+        <!--                <version>${mybatis-plus.version}</version>-->
+        <!--            </dependency>-->
+
+
+
+        <dependency>
+            <groupId>org.redisson</groupId>
+            <artifactId>redisson</artifactId>
+            <version>${redisson.version}</version>
+        </dependency>
+
+
+        <!-- others -->
+        <!-- lombok -->
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>${lombok.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>${commons-io.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>${commons-lang3.version}</version>
+        </dependency>
+        <!-- 用来支持 log4j2 中的 Async -->
     </dependencies>
-</project>
+</dependencyManagement>
+
+<dependencies>
+<dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-starter-bootstrap</artifactId>
+</dependency>
+</dependencies>
+<build>
+<plugins>
+    <plugin>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-maven-plugin</artifactId>
+    </plugin>
+</plugins>
+</build>
+        </project>

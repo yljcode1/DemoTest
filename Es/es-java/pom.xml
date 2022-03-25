@@ -8,9 +8,6 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <artifactId>es-java</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>es-java</name>
-    <description>es-java</description>
     <properties>
         <java.version>1.8</java.version>
     </properties>
@@ -18,6 +15,10 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
         </dependency>
         <dependency>
             <groupId>org.elasticsearch</groupId>
@@ -30,34 +31,25 @@
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>slf4j-api</artifactId>
-            <version>1.7.28</version>
         </dependency>
         <!-- elasticsearch 依赖 2.x 的 log4j -->
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-api</artifactId>
-            <version>2.8.2</version>
         </dependency>
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-core</artifactId>
-            <version>2.8.2</version>
         </dependency>
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>fastjson</artifactId>
-            <version>1.2.79</version>
-        </dependency>
+
         <dependency>
             <groupId>com.fasterxml.jackson.core</groupId>
             <artifactId>jackson-databind</artifactId>
-            <version>2.9.9</version>
         </dependency>
         <!-- junit 单元测试 -->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
-            <version>4.12</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
