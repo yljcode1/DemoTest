@@ -21,6 +21,10 @@
         <module>JavaDemo</module>
         <module>mybatisDemo</module>
         <module>Es</module>
+        <module>mybatisplus</module>
+        <module>mybatisDemo</module>
+        <module>rocketmq-demo</module>
+        <module>currentDemo</module>
     </modules>
 
     <properties>
