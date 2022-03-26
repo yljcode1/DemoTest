@@ -8,8 +8,20 @@ spring:
       server-addr: 120.79.212.252:8848
     gateway:
       routes:
-        - id: gateway-provider
-          uri: http://localhost:8001/
+#        - id: gateway-provider
+#          uri: lb://api-server
+#          predicates:
+#          - Path=/goods/**
+        - id: gateway-consumer #ID???????????UUID
+          uri: http://localhost:9000/ #uri:????
+          predicates: #predicates: ????????????????
+            - Path=/order/**
+        - id: api-server
+          uri: lb://api-server
           predicates:
-          - Path=/goods/**
-
+            - Path=/goods/**
+            #????
+       # -id: gateway-provider
+       #  uri: lb://GATEWAY-PROVIDER
+       #  predicates:
+       #    -Path=/goods/**

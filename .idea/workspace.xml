@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bdbf1a1-1522-446a-93b3-06a1d5946b37" name="Changes" comment="修改包结构">
-      <change afterPath="$PROJECT_DIR$/api/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Es/es-java/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Es/es-java/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/api/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/yao/api/ApiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/yao/api/ApiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/java/com/yao/api/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/main/java/com/yao/api/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayDemo/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatewayDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayDemo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatewayDemo/src/main/java/com/yao/GatewayDemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayDemo/src/main/java/com/yao/GatewayDemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatewayDemo/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="2bdbf1a1-1522-446a-93b3-06a1d5946b37" name="Changes" comment="搭建gateway">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatewayDemo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayDemo/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -386,7 +377,7 @@
       <workItem from="1645886404341" duration="47712000" />
       <workItem from="1647604207881" duration="4038000" />
       <workItem from="1648210580662" duration="4083000" />
-      <workItem from="1648220028033" duration="11157000" />
+      <workItem from="1648220028033" duration="13768000" />
     </task>
     <task id="LOCAL-00001" summary="添加MQ笔记">
       <created>1641299273285</created>
@@ -605,7 +596,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648225177623</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="搭建gateway">
+      <created>1648276777204</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1648276777204</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -647,7 +645,8 @@
     <MESSAGE value="java基础-线程" />
     <MESSAGE value="java基础-线程-栈帧" />
     <MESSAGE value="修改包结构" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改包结构" />
+    <MESSAGE value="搭建gateway" />
+    <option name="LAST_COMMIT_MESSAGE" value="搭建gateway" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
