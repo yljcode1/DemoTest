@@ -36,11 +36,12 @@
         <spring.cloud.version>2020.0.3</spring.cloud.version>
         <spring.cloud.alibaba.version>2021.1</spring.cloud.alibaba.version>
         <spring-boot-alibaba.version>1.0.0</spring-boot-alibaba.version>
+        <spring-cloud-loadbalance.version>3.1.1</spring-cloud-loadbalance.version>
 
         <spring-cloud-oauth2.version>2.2.5.RELEASE</spring-cloud-oauth2.version>
         <spring-cloud-security.version>2.2.1.RELEASE</spring-cloud-security.version>
         <spring-cloud-nacos.version>2.2.0.RELEASE</spring-cloud-nacos.version>
-        <spring-cloud-gateway.version>>3.1.1</spring-cloud-gateway.version>
+        <spring-cloud-gateway.version>3.0.4</spring-cloud-gateway.version>
 
         <version>0.0.1-SNAPSHOT</version>
         <mysql-connector5.version>5.1.47</mysql-connector5.version>
@@ -55,6 +56,7 @@
         <elasticsearch-data.version>7.15.2</elasticsearch-data.version>
         <lombok.version>1.18.12</lombok.version>
         <hutool.version>5.7.17</hutool.version>
+        <fastjson.version>1.2.78</fastjson.version>
 
         <commons-io.version>2.11.0</commons-io.version>
         <commons-lang3.version>3.11</commons-lang3.version>
@@ -89,6 +91,11 @@
                 <groupId>cn.hutool</groupId>
                 <artifactId>hutool-all</artifactId>
                 <version>${hutool.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-starter-loadbalancer</artifactId>
+                <version>${spring-cloud-loadbalance.version}</version>
             </dependency>
             <!-- Spring Boot -->
 
@@ -146,76 +153,79 @@
                 <groupId>org.springframework.cloud</groupId>
                 <artifactId>spring-cloud-starter-gateway</artifactId>
                 <version>${spring-cloud-gateway.version}</version>
-        </dependency>
-        <!--            数据源相关-->
+            </dependency>
+            <!--            数据源相关-->
 
-                    <dependency>
-                        <groupId>com.baomidou</groupId>
-                        <artifactId>mybatis-plus-boot-starter</artifactId>
-                        <version>${mybatis-plus.version}</version>
-                    </dependency>
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-boot-starter</artifactId>
+                <version>${mybatis-plus.version}</version>
+            </dependency>
             <dependency>
                 <groupId>org.apache.rocketmq</groupId>
                 <artifactId>rocketmq-spring-boot-starter</artifactId>
                 <version>${rocket-mq.verision}</version>
             </dependency>
 
-        <!--            <dependency>-->
-        <!--                <groupId>com.baomidou</groupId>-->
-        <!--                <artifactId>mybatis-plus-annotation</artifactId>-->
-        <!--                <version>${mybatis-plus.version}</version>-->
-        <!--            </dependency>-->
-        <!--            <dependency>-->
-        <!--                <groupId>com.baomidou</groupId>-->
-        <!--                <artifactId>mybatis-plus-extension</artifactId>-->
-        <!--                <version>${mybatis-plus.version}</version>-->
-        <!--            </dependency>-->
+            <!--            <dependency>-->
+            <!--                <groupId>com.baomidou</groupId>-->
+            <!--                <artifactId>mybatis-plus-annotation</artifactId>-->
+            <!--                <version>${mybatis-plus.version}</version>-->
+            <!--            </dependency>-->
+            <!--            <dependency>-->
+            <!--                <groupId>com.baomidou</groupId>-->
+            <!--                <artifactId>mybatis-plus-extension</artifactId>-->
+            <!--                <version>${mybatis-plus.version}</version>-->
+            <!--            </dependency>-->
 
 
+            <dependency>
+                <groupId>org.redisson</groupId>
+                <artifactId>redisson</artifactId>
+                <version>${redisson.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.alibaba</groupId>
+                <artifactId>fastjson</artifactId>
+                <version>${fastjson.version}</version>
+            </dependency>
 
+            <!-- others -->
+            <!-- lombok -->
+
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>commons-io</groupId>
+                <artifactId>commons-io</artifactId>
+                <version>${commons-io.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-lang3</artifactId>
+                <version>${commons-lang3.version}</version>
+            </dependency>
+            <!-- 用来支持 log4j2 中的 Async -->
+        </dependencies>
+    </dependencyManagement>
+
+    <dependencies>
         <dependency>
-            <groupId>org.redisson</groupId>
-            <artifactId>redisson</artifactId>
-            <version>${redisson.version}</version>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-bootstrap</artifactId>
         </dependency>
-
-
-        <!-- others -->
-        <!-- lombok -->
-
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-            <version>${lombok.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>commons-io</groupId>
-            <artifactId>commons-io</artifactId>
-            <version>${commons-io.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.apache.commons</groupId>
-            <artifactId>commons-lang3</artifactId>
-            <version>${commons-lang3.version}</version>
-        </dependency>
-        <!-- 用来支持 log4j2 中的 Async -->
     </dependencies>
-</dependencyManagement>
-
-<dependencies>
-<dependency>
-    <groupId>org.springframework.cloud</groupId>
-    <artifactId>spring-cloud-starter-bootstrap</artifactId>
-</dependency>
-</dependencies>
-<build>
-<plugins>
-    <plugin>
-        <groupId>org.springframework.boot</groupId>
-        <artifactId>spring-boot-maven-plugin</artifactId>
-    </plugin>
-</plugins>
-</build>
-        </project>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+</project>

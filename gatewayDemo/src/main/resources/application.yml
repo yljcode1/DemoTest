@@ -1,0 +1,15 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: mydemo-gateway
+  cloud:
+    nacos:
+      server-addr: 120.79.212.252:8848
+    gateway:
+      routes:
+        - id: gateway-provider
+          uri: http://localhost:8001/
+          predicates:
+          - Path=/goods/**
+
