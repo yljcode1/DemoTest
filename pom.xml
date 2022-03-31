@@ -27,6 +27,8 @@
         <module>gatewayDemo</module>
         <module>api</module>
         <module>yao-job</module>
+        <module>order-server</module>
+        <module>product-server</module>
     </modules>
 
     <properties>

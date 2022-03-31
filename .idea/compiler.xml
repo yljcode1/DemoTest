@@ -22,12 +22,15 @@
         <module name="shidu-example-seata-tcc-business" />
         <module name="api" />
         <module name="es-springboot" />
+        <module name="yao-job" />
         <module name="shidu-example-seata-tcc-storage" />
         <module name="consumer" />
         <module name="es-java" />
         <module name="JavaDemo" />
         <module name="springcloud-seata-at-storage" />
         <module name="spring-oauth-resource" />
+        <module name="product-server" />
+        <module name="order-server" />
         <module name="spring-oauth-server" />
         <module name="es" />
         <module name="currentDemo" />
@@ -73,7 +76,9 @@
       <module name="gatewayDemo" options="-parameters" />
       <module name="mybatisDemo" options="-parameters" />
       <module name="mybatisplus" options="-parameters" />
+      <module name="order-server" options="-parameters" />
       <module name="producer" options="-parameters" />
+      <module name="product-server" options="-parameters" />
       <module name="rocketmq-demo" options="" />
       <module name="seata-business" options="-parameters" />
       <module name="seata-order" options="-parameters" />
@@ -97,6 +102,7 @@
       <module name="springcloud-seata-tcc-order" options="-parameters" />
       <module name="springcloud-seata-tcc-storage" options="-parameters" />
       <module name="springcloudDemo" options="-parameters" />
+      <module name="yao-job" options="-parameters" />
     </option>
   </component>
 </project>

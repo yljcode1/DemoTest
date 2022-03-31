@@ -22,6 +22,8 @@
         <option value="$PROJECT_DIR$/gatewayDemo/pom.xml" />
         <option value="$PROJECT_DIR$/api/pom.xml" />
         <option value="$PROJECT_DIR$/common/pom.xml" />
+        <option value="$PROJECT_DIR$/order-server/pom.xml" />
+        <option value="$PROJECT_DIR$/product-server/pom.xml" />
       </list>
     </option>
   </component>

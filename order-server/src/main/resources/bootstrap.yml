@@ -1,0 +1,10 @@
+server:
+  port: 8090
+spring:
+  application:
+    name: order-server
+  cloud:
+    nacos:
+      server-addr: 120.79.212.252
+      username: nacos
+      password: nacos

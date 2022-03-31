@@ -4,15 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bdbf1a1-1522-446a-93b3-06a1d5946b37" name="Changes" comment="添加全局过滤器">
-      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/yao/model/dto/YResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/test/java/com/yao/CommonApplicationTests.java" afterDir="false" />
+    <list default="true" id="2bdbf1a1-1522-446a-93b3-06a1d5946b37" name="Changes" comment="公共模块开发">
+      <change afterPath="$PROJECT_DIR$/order-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-server/src/main/java/com/yao/OrderServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/order-server/src/test/java/com/yao/OrderServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-server/src/main/java/com/yao/ProductServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-server/src/test/java/com/yao/ProductServerApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +103,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.GatewayDemoApplication">
+  <component name="RunManager" selected="Spring Boot.ProductServerApplication">
     <configuration name="TestJoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yao.currentdemo.threadDemo.TestJoin" />
       <module name="currentDemo" />
@@ -241,9 +246,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="OrderServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="order-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yao.OrderServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProducerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="producer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.yao.producer.ProducerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="product-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yao.ProductServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -325,6 +344,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="YaoJobApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="yao-job" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yao.YaoJobApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.TestThreadInterrapt" />
       <item itemvalue="Application.TestJoin" />
@@ -354,6 +380,9 @@
       <item itemvalue="Spring Boot.ShiduExampleSeataStorageApplication (1)" />
       <item itemvalue="Spring Boot.ApiApplication" />
       <item itemvalue="Spring Boot.CommonApplication" />
+      <item itemvalue="Spring Boot.YaoJobApplication" />
+      <item itemvalue="Spring Boot.OrderServerApplication" />
+      <item itemvalue="Spring Boot.ProductServerApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -391,7 +420,7 @@
       <workItem from="1645886404341" duration="47712000" />
       <workItem from="1647604207881" duration="4038000" />
       <workItem from="1648210580662" duration="4083000" />
-      <workItem from="1648220028033" duration="27169000" />
+      <workItem from="1648220028033" duration="28781000" />
     </task>
     <task id="LOCAL-00001" summary="添加MQ笔记">
       <created>1641299273285</created>
@@ -645,7 +674,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648465921300</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="公共模块开发">
+      <created>1648738891371</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1648738891371</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -689,7 +725,8 @@
     <MESSAGE value="修改包结构" />
     <MESSAGE value="搭建gateway" />
     <MESSAGE value="添加全局过滤器" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加全局过滤器" />
+    <MESSAGE value="公共模块开发" />
+    <option name="LAST_COMMIT_MESSAGE" value="公共模块开发" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
