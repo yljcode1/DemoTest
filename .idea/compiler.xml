@@ -13,6 +13,7 @@
         <module name="springcloud-seata-tcc-storage" />
         <module name="springcloud-seata-at-business" />
         <module name="springcloud-seata-saga-bussiness" />
+        <module name="common" />
         <module name="SpringSecurityDemo" />
         <module name="designmodel" />
         <module name="springcloud-seata-saga-business" />
@@ -61,6 +62,7 @@
       <module name="SpringDemo" options="-parameters" />
       <module name="SpringSecurityDemo" options="-parameters" />
       <module name="api" options="-parameters" />
+      <module name="common" options="-parameters" />
       <module name="consumer" options="-parameters" />
       <module name="currentDemo" options="-parameters" />
       <module name="designmodel" options="-parameters" />

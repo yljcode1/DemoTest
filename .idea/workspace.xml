@@ -5,6 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bdbf1a1-1522-446a-93b3-06a1d5946b37" name="Changes" comment="添加全局过滤器">
+      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/yao/model/dto/YResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/test/java/com/yao/CommonApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -160,6 +167,13 @@
     <configuration name="ApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="api" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.yao.api.ApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="common" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yao.CommonApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -339,6 +353,7 @@
       <item itemvalue="Spring Boot.ShiduExampleSeataStorageApplication" />
       <item itemvalue="Spring Boot.ShiduExampleSeataStorageApplication (1)" />
       <item itemvalue="Spring Boot.ApiApplication" />
+      <item itemvalue="Spring Boot.CommonApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -376,7 +391,7 @@
       <workItem from="1645886404341" duration="47712000" />
       <workItem from="1647604207881" duration="4038000" />
       <workItem from="1648210580662" duration="4083000" />
-      <workItem from="1648220028033" duration="21819000" />
+      <workItem from="1648220028033" duration="27169000" />
     </task>
     <task id="LOCAL-00001" summary="添加MQ笔记">
       <created>1641299273285</created>
@@ -623,7 +638,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648353182083</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="添加全局过滤器">
+      <created>1648465921300</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1648465921300</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
