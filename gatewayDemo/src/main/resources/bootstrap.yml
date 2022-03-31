@@ -1,10 +1,10 @@
 server:
-  port: 8090
+  port: 80
 spring:
   profiles:
     active: dev
   application:
-    name: order-server
+    name: gateway-server
   cloud:
     nacos:
       username: ${nacos.username}

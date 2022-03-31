@@ -4,20 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bdbf1a1-1522-446a-93b3-06a1d5946b37" name="Changes" comment="公共模块开发">
-      <change afterPath="$PROJECT_DIR$/order-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-server/src/main/java/com/yao/OrderServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/order-server/src/test/java/com/yao/OrderServerApplicationTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-server/src/main/java/com/yao/ProductServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-server/src/test/java/com/yao/ProductServerApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="2bdbf1a1-1522-446a-93b3-06a1d5946b37" name="Changes" comment="添加订单-产品模块">
+      <change afterPath="$PROJECT_DIR$/order-server/src/main/resources/bootstrap-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product-server/src/main/resources/bootstrap-dev.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-server/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order-server/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/product-server/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/product-server/src/main/resources/bootstrap.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +68,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="corretto-1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/product-server/src/main/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -88,6 +80,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\java\MyDemo\product-server\src\main\resources" />
       <recent name="D:\project\java\MyDemo\rocketmq-demo" />
     </key>
   </component>
@@ -420,7 +413,7 @@
       <workItem from="1645886404341" duration="47712000" />
       <workItem from="1647604207881" duration="4038000" />
       <workItem from="1648210580662" duration="4083000" />
-      <workItem from="1648220028033" duration="28781000" />
+      <workItem from="1648220028033" duration="30122000" />
     </task>
     <task id="LOCAL-00001" summary="添加MQ笔记">
       <created>1641299273285</created>
@@ -681,7 +674,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648738891371</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="添加订单-产品模块">
+      <created>1648740802386</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1648740802386</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -726,7 +726,8 @@
     <MESSAGE value="搭建gateway" />
     <MESSAGE value="添加全局过滤器" />
     <MESSAGE value="公共模块开发" />
-    <option name="LAST_COMMIT_MESSAGE" value="公共模块开发" />
+    <MESSAGE value="添加订单-产品模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加订单-产品模块" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
