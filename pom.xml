@@ -26,6 +26,7 @@
         <module>currentDemo</module>
         <module>gatewayDemo</module>
         <module>api</module>
+        <module>yao-job</module>
     </modules>
 
     <properties>
@@ -62,6 +63,7 @@
         <commons-lang3.version>3.11</commons-lang3.version>
 
         <redisson.version>3.15.0</redisson.version>
+        <xxl-job.version>2.2.0</xxl-job.version>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -209,6 +211,12 @@
                 <groupId>org.apache.commons</groupId>
                 <artifactId>commons-lang3</artifactId>
                 <version>${commons-lang3.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.xuxueli</groupId>
+                <artifactId>xxl-job-core</artifactId>
+                <version>${xxl-job.version}</version>
             </dependency>
             <!-- 用来支持 log4j2 中的 Async -->
         </dependencies>
