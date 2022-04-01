@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bdbf1a1-1522-446a-93b3-06a1d5946b37" name="Changes" comment="添加订单-产品模块">
-      <change afterPath="$PROJECT_DIR$/gatewayDemo/src/main/java/com/yao/config/properties/IgnoreWhiteProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gatewayDemo/src/main/java/com/yao/filter/AuthFilter.java" afterDir="false" />
+    <list default="true" id="2bdbf1a1-1522-446a-93b3-06a1d5946b37" name="Changes" comment="gateway鉴权">
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/yao/constant/TokenConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/yao/util/JwtUtils.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-server/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-server/src/main/resources/bootstrap-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order-server/src/main/resources/bootstrap-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatewayDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayDemo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatewayDemo/src/main/java/com/yao/filter/AuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayDemo/src/main/java/com/yao/filter/AuthFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -414,7 +416,7 @@
       <workItem from="1645886404341" duration="47712000" />
       <workItem from="1647604207881" duration="4038000" />
       <workItem from="1648210580662" duration="4083000" />
-      <workItem from="1648220028033" duration="34980000" />
+      <workItem from="1648220028033" duration="36224000" />
     </task>
     <task id="LOCAL-00001" summary="添加MQ笔记">
       <created>1641299273285</created>
@@ -689,7 +691,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648742133886</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="gateway鉴权">
+      <created>1648823479521</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1648823479521</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -735,7 +744,8 @@
     <MESSAGE value="添加全局过滤器" />
     <MESSAGE value="公共模块开发" />
     <MESSAGE value="添加订单-产品模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加订单-产品模块" />
+    <MESSAGE value="gateway鉴权" />
+    <option name="LAST_COMMIT_MESSAGE" value="gateway鉴权" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
