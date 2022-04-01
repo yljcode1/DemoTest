@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bdbf1a1-1522-446a-93b3-06a1d5946b37" name="Changes" comment="添加订单-产品模块">
-      <change afterPath="$PROJECT_DIR$/order-server/src/main/resources/bootstrap-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/product-server/src/main/resources/bootstrap-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatewayDemo/src/main/java/com/yao/config/properties/IgnoreWhiteProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gatewayDemo/src/main/java/com/yao/filter/AuthFilter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-server/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order-server/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-server/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/product-server/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-server/src/main/resources/bootstrap-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/order-server/src/main/resources/bootstrap-dev.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +68,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="corretto-1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/product-server/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gatewayDemo/src/main/resources" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -80,6 +80,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\java\MyDemo\gatewayDemo\src\main\resources" />
       <recent name="D:\project\java\MyDemo\product-server\src\main\resources" />
       <recent name="D:\project\java\MyDemo\rocketmq-demo" />
     </key>
@@ -97,6 +98,19 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.ProductServerApplication">
+    <configuration name="OrderController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.yao.controller.OrderController" />
+      <module name="order-server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yao.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestJoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yao.currentdemo.threadDemo.TestJoin" />
       <module name="currentDemo" />
@@ -112,19 +126,6 @@
     </configuration>
     <configuration name="TestStaticThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yao.currentdemo.threadDemo.TestStaticThread" />
-      <module name="currentDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yao.currentdemo.threadDemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestThreadInterrapt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yao.currentdemo.threadDemo.TestThreadInterrapt" />
       <module name="currentDemo" />
       <extension name="coverage">
         <pattern>
@@ -345,7 +346,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestThreadInterrapt" />
       <item itemvalue="Application.TestJoin" />
       <item itemvalue="Application.TestTwoParse" />
       <item itemvalue="Application.TestStaticThread" />
@@ -376,14 +376,15 @@
       <item itemvalue="Spring Boot.YaoJobApplication" />
       <item itemvalue="Spring Boot.OrderServerApplication" />
       <item itemvalue="Spring Boot.ProductServerApplication" />
+      <item itemvalue="Application.OrderController" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OrderController" />
         <item itemvalue="Application.TsetThreadAutoM" />
         <item itemvalue="Application.TestStaticThread" />
         <item itemvalue="Application.TestTwoParse" />
         <item itemvalue="Application.TestJoin" />
-        <item itemvalue="Application.TestThreadInterrapt" />
       </list>
     </recent_temporary>
   </component>
@@ -413,7 +414,7 @@
       <workItem from="1645886404341" duration="47712000" />
       <workItem from="1647604207881" duration="4038000" />
       <workItem from="1648210580662" duration="4083000" />
-      <workItem from="1648220028033" duration="30122000" />
+      <workItem from="1648220028033" duration="34980000" />
     </task>
     <task id="LOCAL-00001" summary="添加MQ笔记">
       <created>1641299273285</created>
@@ -681,7 +682,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648740802386</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="添加订单-产品模块">
+      <created>1648742133886</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1648742133886</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
