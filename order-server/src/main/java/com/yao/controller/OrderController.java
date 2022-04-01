@@ -14,11 +14,18 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequiredArgsConstructor
 public class OrderController {
-//    public static void main(String[] args) {
+    //    public static void main(String[] args) {
 //        System.out.println(new BCryptPasswordEncoder().encode("wi1104wi"));
 //    }
-@RequestMapping("/select")
-public String selectById(String id) {
-    return id;
-}
+
+    /**
+     * 查询部门
+     *
+     * @param id 唯一标识
+     * @return 返回值
+     */
+    @RequestMapping("/select")
+    public String selectById(String id) {
+        return id;
+    }
 }
