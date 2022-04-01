@@ -7,21 +7,21 @@ spring:
     name: order-server
   cloud:
     nacos:
-      username: ${nacos.username}
-      password: ${nacos.password}
       discovery:
+        username: ${nacos.username}
+        password: ${nacos.password}
         enabled: true
         register-enabled: true
         server-addr: ${nacos.server-addr}
         namespace: ${nacos.namespace}
         group: ${nacos.group}
       config:
+        username: ${nacos.username}
+        password: ${nacos.password}
         server-addr: ${nacos.server-addr}
         namespace: ${nacos.namespace}
         group: ${nacos.group}
         file-extension: yaml
         shared-configs:
           - data-id: common-base.yaml
-            group: ${nacos.group}
-          - data-id: common-redis.yaml
             group: ${nacos.group}
