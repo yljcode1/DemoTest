@@ -5,13 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bdbf1a1-1522-446a-93b3-06a1d5946b37" name="Changes" comment="gateway鉴权">
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/yao/constant/TokenConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/yao/util/JwtUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDemo/src/main/java/mybatis/mock/demo/supply/DemoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDemo/src/main/java/mybatis/mock/demo/supply/supplyAsync.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentinelDemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentinelDemo/src/main/java/com/yao/SentinelDemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentinelDemo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sentinelDemo/src/test/java/com/yao/SentinelDemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022_3_31_23_00_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022_3_31_23_00__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatewayDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayDemo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gatewayDemo/src/main/java/com/yao/filter/AuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayDemo/src/main/java/com/yao/filter/AuthFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDemo/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +92,12 @@
       <recent name="D:\project\java\MyDemo\product-server\src\main\resources" />
       <recent name="D:\project\java\MyDemo\rocketmq-demo" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\project\java\MyDemo\JavaDemo\src\main\java\mybatis\mock\demo\supply" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.yao.constant" />
+    </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
@@ -99,52 +111,26 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ProductServerApplication">
+  <component name="RunManager" selected="Application.DemoTest">
+    <configuration name="DemoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mybatis.mock.demo.supply.DemoTest" />
+      <module name="JavaDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mybatis.mock.demo.supply.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="OrderController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.yao.controller.OrderController" />
       <module name="order-server" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.yao.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestJoin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yao.currentdemo.threadDemo.TestJoin" />
-      <module name="currentDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yao.currentdemo.threadDemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestStaticThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yao.currentdemo.threadDemo.TestStaticThread" />
-      <module name="currentDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yao.currentdemo.threadDemo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestTwoParse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yao.currentdemo.threadDemo.TestTwoParse" />
-      <module name="currentDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yao.currentdemo.threadDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,6 +147,35 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="supplyAsync" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mybatis.mock.demo.supply.supplyAsync" />
+      <module name="JavaDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mybatis.mock.demo.supply.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="supplyAsync.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mybatis.mock.demo.supply.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mybatis.mock.demo.supply" />
+      <option name="MAIN_CLASS_NAME" value="mybatis.mock.demo.supply.supplyAsync" />
+      <option name="METHOD_NAME" value="test02" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -270,6 +285,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SentinelDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="sentinelDemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yao.SentinelDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ShiduExampleSeataBusinessApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springcloud-seata-tcc-business" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.business.ShiduExampleSeataBusinessApplication" />
@@ -348,10 +370,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TestJoin" />
-      <item itemvalue="Application.TestTwoParse" />
-      <item itemvalue="Application.TestStaticThread" />
       <item itemvalue="Application.TsetThreadAutoM" />
+      <item itemvalue="Application.OrderController" />
+      <item itemvalue="Application.supplyAsync" />
+      <item itemvalue="Application.DemoTest" />
+      <item itemvalue="JUnit.supplyAsync.test02" />
       <item itemvalue="Spring Boot.DesignmodelApplication" />
       <item itemvalue="Spring Boot.DyDataSourceApplication" />
       <item itemvalue="Spring Boot.EsApplication" />
@@ -378,15 +401,15 @@
       <item itemvalue="Spring Boot.YaoJobApplication" />
       <item itemvalue="Spring Boot.OrderServerApplication" />
       <item itemvalue="Spring Boot.ProductServerApplication" />
-      <item itemvalue="Application.OrderController" />
+      <item itemvalue="Spring Boot.SentinelDemoApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DemoTest" />
+        <item itemvalue="JUnit.supplyAsync.test02" />
+        <item itemvalue="Application.supplyAsync" />
         <item itemvalue="Application.OrderController" />
         <item itemvalue="Application.TsetThreadAutoM" />
-        <item itemvalue="Application.TestStaticThread" />
-        <item itemvalue="Application.TestTwoParse" />
-        <item itemvalue="Application.TestJoin" />
       </list>
     </recent_temporary>
   </component>
@@ -416,7 +439,9 @@
       <workItem from="1645886404341" duration="47712000" />
       <workItem from="1647604207881" duration="4038000" />
       <workItem from="1648210580662" duration="4083000" />
-      <workItem from="1648220028033" duration="36224000" />
+      <workItem from="1648220028033" duration="42919000" />
+      <workItem from="1650087288782" duration="4525000" />
+      <workItem from="1650092675460" duration="2429000" />
     </task>
     <task id="LOCAL-00001" summary="添加MQ笔记">
       <created>1641299273285</created>
@@ -698,7 +723,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648823479521</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="gateway鉴权">
+      <created>1648825696865</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1648825696865</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

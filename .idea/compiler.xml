@@ -30,6 +30,7 @@
         <module name="springcloud-seata-at-storage" />
         <module name="spring-oauth-resource" />
         <module name="product-server" />
+        <module name="sentinelDemo" />
         <module name="order-server" />
         <module name="spring-oauth-server" />
         <module name="es" />
@@ -83,6 +84,7 @@
       <module name="seata-business" options="-parameters" />
       <module name="seata-order" options="-parameters" />
       <module name="seata-storage" options="-parameters" />
+      <module name="sentinelDemo" options="-parameters" />
       <module name="shidu-example-seata-order" options="-parameters" />
       <module name="shidu-example-seata-storage" options="-parameters" />
       <module name="shidu-example-seata-tcc-storage" options="-parameters" />
