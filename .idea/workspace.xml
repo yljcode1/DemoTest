@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2bdbf1a1-1522-446a-93b3-06a1d5946b37" name="Changes" comment="gateway鉴权">
-      <change afterPath="$PROJECT_DIR$/JavaDemo/src/main/java/mybatis/mock/demo/supply/DemoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDemo/src/main/java/mybatis/mock/demo/supply/supplyAsync.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinelDemo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinelDemo/src/main/java/com/yao/SentinelDemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinelDemo/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sentinelDemo/src/test/java/com/yao/SentinelDemoApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022_3_31_23_00_[Changes]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022_3_31_23_00__Changes_.xml" beforeDir="false" />
+    <list default="true" id="2bdbf1a1-1522-446a-93b3-06a1d5946b37" name="Changes" comment="feat: 递归demo">
+      <change afterPath="$PROJECT_DIR$/JavaDemo/src/main/java/mybatis/mock/demo/books/DesignBookTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaDemo/src/main/java/mybatis/mock/demo/optial/OptialTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDemo/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,39 +101,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DemoTest">
+  <component name="RunManager" selected="JUnit.DesignBookTest.simpleDemo">
     <configuration name="DemoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mybatis.mock.demo.supply.DemoTest" />
       <module name="JavaDemo" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="mybatis.mock.demo.supply.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrderController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yao.controller.OrderController" />
-      <module name="order-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yao.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TsetThreadAutoM" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.yao.currentdemo.threadDemo.TsetThreadAutoM" />
-      <module name="currentDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.yao.currentdemo.threadDemo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,6 +124,38 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DesignBookTest.simpleDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mybatis.mock.demo.books.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mybatis.mock.demo.books" />
+      <option name="MAIN_CLASS_NAME" value="mybatis.mock.demo.books.DesignBookTest" />
+      <option name="METHOD_NAME" value="simpleDemo" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OptialTest.testOptial" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JavaDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="mybatis.mock.demo.optial.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="mybatis.mock.demo.optial" />
+      <option name="MAIN_CLASS_NAME" value="mybatis.mock.demo.optial.OptialTest" />
+      <option name="METHOD_NAME" value="testOptial" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -370,8 +366,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TsetThreadAutoM" />
-      <item itemvalue="Application.OrderController" />
       <item itemvalue="Application.supplyAsync" />
       <item itemvalue="Application.DemoTest" />
       <item itemvalue="JUnit.supplyAsync.test02" />
@@ -402,14 +396,16 @@
       <item itemvalue="Spring Boot.OrderServerApplication" />
       <item itemvalue="Spring Boot.ProductServerApplication" />
       <item itemvalue="Spring Boot.SentinelDemoApplication" />
+      <item itemvalue="JUnit.OptialTest.testOptial" />
+      <item itemvalue="JUnit.DesignBookTest.simpleDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DesignBookTest.simpleDemo" />
+        <item itemvalue="JUnit.OptialTest.testOptial" />
         <item itemvalue="Application.DemoTest" />
         <item itemvalue="JUnit.supplyAsync.test02" />
         <item itemvalue="Application.supplyAsync" />
-        <item itemvalue="Application.OrderController" />
-        <item itemvalue="Application.TsetThreadAutoM" />
       </list>
     </recent_temporary>
   </component>
@@ -441,7 +437,7 @@
       <workItem from="1648210580662" duration="4083000" />
       <workItem from="1648220028033" duration="42919000" />
       <workItem from="1650087288782" duration="4525000" />
-      <workItem from="1650092675460" duration="2429000" />
+      <workItem from="1650092675460" duration="10618000" />
     </task>
     <task id="LOCAL-00001" summary="添加MQ笔记">
       <created>1641299273285</created>
@@ -730,7 +726,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648825696865</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="feat: 递归demo">
+      <created>1650117324627</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1650117324627</updated>
+    </task>
+    <option name="localTasksCounter" value="43" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -752,7 +755,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="添加MQ笔记" />
     <MESSAGE value="添加resource模块" />
     <MESSAGE value="添加延时消息发送" />
     <MESSAGE value="mq-批量消息发送" />
@@ -777,7 +779,8 @@
     <MESSAGE value="公共模块开发" />
     <MESSAGE value="添加订单-产品模块" />
     <MESSAGE value="gateway鉴权" />
-    <option name="LAST_COMMIT_MESSAGE" value="gateway鉴权" />
+    <MESSAGE value="feat: 递归demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 递归demo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -796,6 +799,24 @@
           <url>file://$PROJECT_DIR$/currentDemo/src/test/java/com/yao/currentdemo/CurrentDemoApplicationTests.java</url>
           <line>13</line>
           <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/JavaDemo/src/main/java/mybatis/mock/demo/optial/OptialTest.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/JavaDemo/src/main/java/mybatis/mock/demo/optial/OptialTest.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/JavaDemo/src/main/java/mybatis/mock/demo/optial/OptialTest.java</url>
+          <line>25</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
