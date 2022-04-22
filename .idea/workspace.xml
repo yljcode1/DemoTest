@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bdbf1a1-1522-446a-93b3-06a1d5946b37" name="Changes" comment="feat: 递归demo">
-      <change afterPath="$PROJECT_DIR$/JavaDemo/src/main/java/mybatis/mock/demo/books/DesignBookTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaDemo/src/main/java/mybatis/mock/demo/optial/OptialTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -437,7 +435,7 @@
       <workItem from="1648210580662" duration="4083000" />
       <workItem from="1648220028033" duration="42919000" />
       <workItem from="1650087288782" duration="4525000" />
-      <workItem from="1650092675460" duration="10618000" />
+      <workItem from="1650092675460" duration="12420000" />
     </task>
     <task id="LOCAL-00001" summary="添加MQ笔记">
       <created>1641299273285</created>
@@ -733,7 +731,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650117324627</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="feat: 递归demo">
+      <created>1650466418805</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1650466418805</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
