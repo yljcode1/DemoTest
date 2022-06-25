@@ -21,9 +21,9 @@ public class OptialTest {
         // 报错 指针异常
 //        Optional<User> userOptional = Optional.of(user);
 //        orElse会执行里面的方法，但是接受返回值
-        User userCopy = Optional.ofNullable(user).orElse(createUser());
+        User userCopy = Optional.of(user).orElse(createUser());
 
-        User user1 = Optional.ofNullable(user).orElseGet(() -> createUser());
+        User user1 = Optional.of(user).orElseGet(this::createUser);
         log.info(userCopy.toString());
     }
 

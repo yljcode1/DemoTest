@@ -1,8 +1,8 @@
 # 环境隔离，使用 namespace
 # 开发环境
 nacos:
-  server-addr: 120.79.212.252:8848
+  server-addr: 120.79.212.252:9848
   username: nacos
-  password: wi1104wi
-  namespace: 40844dd0-c14d-4879-b610-5d89833992d7
-  group: MY-DEMO-GROUP
+  password: nacos
+  namespace: 5ec6911b-fc1b-4055-b19e-8eec500d3d06
+  group: MY-GROUP

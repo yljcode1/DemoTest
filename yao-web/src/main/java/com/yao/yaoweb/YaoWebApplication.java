@@ -1,15 +1,13 @@
-package com.yao;
+package com.yao.yaoweb;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.scheduling.annotation.EnableScheduling;
 
-@EnableScheduling
 @SpringBootApplication
-public class YaoJobApplication {
+public class YaoWebApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(YaoJobApplication.class, args);
+        SpringApplication.run(YaoWebApplication.class, args);
     }
 
 }

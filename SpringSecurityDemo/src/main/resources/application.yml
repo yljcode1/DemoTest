@@ -1,8 +1,5 @@
-# ???????UserDetailsServiceAutoConfiguration???
 spring:
-  security:
-    user:
-      name: root
-      password: 123456
-
-
+  application:
+    name: spring-service-service
+server:
+  port: 9000

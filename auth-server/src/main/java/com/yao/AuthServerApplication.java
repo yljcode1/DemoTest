@@ -2,14 +2,14 @@ package com.yao;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.scheduling.annotation.EnableScheduling;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
-@EnableScheduling
 @SpringBootApplication
-public class YaoJobApplication {
+@EnableDiscoveryClient
+public class AuthServerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(YaoJobApplication.class, args);
+        SpringApplication.run(AuthServerApplication.class, args);
     }
 
 }

@@ -28,7 +28,9 @@
         <module name="es-java" />
         <module name="JavaDemo" />
         <module name="springcloud-seata-at-storage" />
+        <module name="yao-web" />
         <module name="spring-oauth-resource" />
+        <module name="auth-server" />
         <module name="product-server" />
         <module name="sentinelDemo" />
         <module name="order-server" />
@@ -36,15 +38,10 @@
         <module name="es" />
         <module name="currentDemo" />
         <module name="shidu-example-seata-tcc-order" />
+        <module name="springcloud-seata-at-business (2)" />
         <module name="producer" />
         <module name="springcloud-seata-tcc-business" />
         <module name="dyDataSource" />
-      </profile>
-      <profile name="Annotation profile for MyDemo" enabled="true">
-        <sourceOutputDir name="../../../../Es/springcloud-seata-at-business/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../../../../Es/springcloud-seata-at-business/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <module name="springcloud-seata-at-business (2)" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -66,6 +63,7 @@
       <module name="SpringDemo" options="-parameters" />
       <module name="SpringSecurityDemo" options="-parameters" />
       <module name="api" options="-parameters" />
+      <module name="auth-server" options="-parameters" />
       <module name="common" options="-parameters" />
       <module name="consumer" options="-parameters" />
       <module name="currentDemo" options="-parameters" />
@@ -105,6 +103,7 @@
       <module name="springcloud-seata-tcc-storage" options="-parameters" />
       <module name="springcloudDemo" options="-parameters" />
       <module name="yao-job" options="-parameters" />
+      <module name="yao-web" options="-parameters" />
     </option>
   </component>
 </project>

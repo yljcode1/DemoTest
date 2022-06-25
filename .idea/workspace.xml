@@ -5,7 +5,86 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bdbf1a1-1522-446a-93b3-06a1d5946b37" name="Changes" comment="feat: 递归demo">
+      <change afterPath="$PROJECT_DIR$/JavaDemo/src/main/java/mybatis/mock/demo/thread/threadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringSecurityDemo/src/main/java/com/yao/springsecurity/simpledemo/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/yao/AuthServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/yao/config/AuthorizationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/yao/entity/SysUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/yao/service/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-server/src/main/java/com/yao/vo/UserDetailImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-server/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-server/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-server/src/test/java/com/yao/AuthServerApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/yao/annotation/AutoMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/yao/model/entity/Page.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/yao/model/protocol/BaseResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/yao/util/SpringContextHolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/com/yao/util/YaoPages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yao-job/src/main/java/com/yao/service/jobhandler/SpringScheduleHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yao-web/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yao-web/src/main/java/com/yao/aop/WebPageAop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yao-web/src/main/java/com/yao/yaoweb/YaoWebApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yao-web/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/yao-web/src/test/java/com/yao/yaoweb/YaoWebApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Es/springcloud-seata-at-business/src/main/java/com/yao/es/demo/ESCreate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Es/springcloud-seata-at-business/src/main/java/com/yao/es/demo/ESCreate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Es/springcloud-seata-at-business/src/main/java/com/yao/es/demo/ESFindUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/Es/springcloud-seata-at-business/src/main/java/com/yao/es/demo/ESFindUpdate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Es/springcloud-seata-at-business/src/main/java/com/yao/es/demo/ESTest_Doc_Query.java" beforeDir="false" afterPath="$PROJECT_DIR$/Es/springcloud-seata-at-business/src/main/java/com/yao/es/demo/ESTest_Doc_Query.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDemo/src/main/java/mybatis/mock/demo/optial/OptialTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDemo/src/main/java/mybatis/mock/demo/optial/OptialTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDemo/target/classes/mybatis/mock/demo/books/DesignBookTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDemo/target/classes/mybatis/mock/demo/books/DesignBookTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaDemo/target/classes/mybatis/mock/demo/optial/OptialTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/JavaDemo/target/classes/mybatis/mock/demo/optial/OptialTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringDemo/target/classes/com/yao/springtest/beanpostprocesstest/BeanPostProcessTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringDemo/target/classes/com/yao/springtest/beanpostprocesstest/after/annotation/RoutingInjected.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringDemo/target/classes/com/yao/springtest/beanpostprocesstest/after/annotation/RoutingSwitch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringDemo/target/classes/com/yao/springtest/beanpostprocesstest/after/controller/HelloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringDemo/target/classes/com/yao/springtest/beanpostprocesstest/after/factory/RoutingBeanProxyFactory$FunctionSwitch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringDemo/target/classes/com/yao/springtest/beanpostprocesstest/after/factory/RoutingBeanProxyFactory$VersionRoutingMethodInterceptor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringDemo/target/classes/com/yao/springtest/beanpostprocesstest/after/factory/RoutingBeanProxyFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringDemo/target/classes/com/yao/springtest/beanpostprocesstest/after/factory/RoutingVersion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringDemo/target/classes/com/yao/springtest/beanpostprocesstest/after/processor/RoutingBeanPostProcessor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringDemo/target/classes/com/yao/springtest/beanpostprocesstest/after/service/HelloService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringDemo/target/classes/com/yao/springtest/beanpostprocesstest/before/controller/HelloController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringDemo/target/classes/com/yao/springtest/beanpostprocesstest/before/service/HelloService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringDemo/target/classes/com/yao/springtest/beanpostprocesstest/before/service/impl/HelloServiceImplV1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringDemo/target/classes/com/yao/springtest/beanpostprocesstest/before/service/impl/HelloServiceImplV2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringDemo/target/classes/com/yao/springtest/buildertest/entity/User$UserBuild.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringDemo/target/classes/com/yao/springtest/buildertest/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringDemo/target/classes/com/yao/springtest/methodinterceptortest/InterceptorConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringDemo/target/classes/com/yao/springtest/methodinterceptortest/MethodInterceptorTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringDemo/target/classes/com/yao/springtest/scheduletest/SpringTestApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringDemo/target/classes/com/yao/springtest/scheduletest/gocode/ScheduleTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringDemo/target/classes/com/yao/springtest/scheduletest/gocode/Task01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSecurityDemo/src/main/java/com/yao/springsecurity/simpledemo/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringSecurityDemo/src/main/java/com/yao/springsecurity/simpledemo/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSecurityDemo/src/main/java/com/yao/springsecurity/simpledemo/controller/SpringSecurityController.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringSecurityDemo/src/main/java/com/yao/springsecurity/simpledemo/controller/SpringSecurityController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSecurityDemo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringSecurityDemo/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpringSecurityDemo/src/test/java/com/yao/springsecurity/SpringSecurityDemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/SpringSecurityDemo/src/test/java/com/yao/springsecurity/SpringSecurityDemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gatewayDemo/src/main/resources/bootstrap-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gatewayDemo/src/main/resources/bootstrap-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisDemo/target/classes/com/yao/hsqldb/DefaultObjectFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisDemo/target/classes/com/yao/hsqldb/Example01$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisDemo/target/classes/com/yao/hsqldb/Example01.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisDemo/target/classes/com/yao/hsqldb/Example02$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisDemo/target/classes/com/yao/hsqldb/Example02$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisDemo/target/classes/com/yao/hsqldb/Example02$Order.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisDemo/target/classes/com/yao/hsqldb/Example02$User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisDemo/target/classes/com/yao/hsqldb/Example02.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisDemo/target/classes/com/yao/hsqldb/Example03.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisDemo/target/classes/com/yao/hsqldb/annotation/Add.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisDemo/target/classes/com/yao/hsqldb/annotation/Desc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisDemo/target/classes/com/yao/hsqldb/annotation/MapperAnnotationBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisDemo/target/classes/com/yao/hsqldb/api/TestMybatisAPI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisDemo/target/classes/com/yao/hsqldb/api/TestXPathParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisDemo/target/classes/com/yao/hsqldb/factory/CustomObjectFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisDemo/target/classes/com/yao/hsqldb/factory/ObjectFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisDemo/target/classes/com/yao/hsqldb/factory/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisDemo/target/classes/com/yao/hsqldb/util/DBInitUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisDemo/target/classes/com/yao/hsqldb/util/IOUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatisDemo/target/classes/com/yao/hsqldb/util/InitUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yao-job/src/main/java/com/yao/YaoJobApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/yao-job/src/main/java/com/yao/YaoJobApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +148,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.33793104" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="com.maddyhome.idea.vim.ui.VimEmulationConfigurable" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -99,7 +178,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DesignBookTest.simpleDemo">
+  <component name="RunManager" selected="Application.threadTest">
     <configuration name="DemoTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="mybatis.mock.demo.supply.DemoTest" />
       <module name="JavaDemo" />
@@ -113,12 +192,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="supplyAsync" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="mybatis.mock.demo.supply.supplyAsync" />
+    <configuration name="threadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="mybatis.mock.demo.thread.threadTest" />
       <module name="JavaDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mybatis.mock.demo.supply.*" />
+          <option name="PATTERN" value="mybatis.mock.demo.thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,18 +237,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="supplyAsync.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JavaDemo" />
+    <configuration name="SpringSecurityDemoApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SpringSecurityDemo" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="mybatis.mock.demo.supply.*" />
+          <option name="PATTERN" value="com.yao.springsecurity.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="mybatis.mock.demo.supply" />
-      <option name="MAIN_CLASS_NAME" value="mybatis.mock.demo.supply.supplyAsync" />
-      <option name="METHOD_NAME" value="test02" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="com.yao.springsecurity" />
+      <option name="MAIN_CLASS_NAME" value="com.yao.springsecurity.SpringSecurityDemoApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -177,6 +255,13 @@
     <configuration name="ApiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="api" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.yao.api.ApiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="auth-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yao.AuthServerApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -363,17 +448,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="YaoWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="yao-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yao.yaoweb.YaoWebApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.supplyAsync" />
       <item itemvalue="Application.DemoTest" />
-      <item itemvalue="JUnit.supplyAsync.test02" />
+      <item itemvalue="Application.threadTest" />
+      <item itemvalue="JUnit.OptialTest.testOptial" />
+      <item itemvalue="JUnit.DesignBookTest.simpleDemo" />
+      <item itemvalue="JUnit.SpringSecurityDemoApplicationTests" />
+      <item itemvalue="Spring Boot.SpringSecurityDemoApplication" />
       <item itemvalue="Spring Boot.DesignmodelApplication" />
       <item itemvalue="Spring Boot.DyDataSourceApplication" />
       <item itemvalue="Spring Boot.EsApplication" />
       <item itemvalue="Spring Boot.EsSpringbootApplication" />
       <item itemvalue="Spring Boot.RocketmqDemoApplication" />
       <item itemvalue="Spring Boot.SpringOauthResourceApplication" />
-      <item itemvalue="Spring Boot.SpringSecurityDemoApplication" />
       <item itemvalue="Spring Boot.SpringbootRocketmqApplication" />
       <item itemvalue="Spring Boot.ProducerApplication" />
       <item itemvalue="Spring Boot.ConsumerApplication" />
@@ -394,16 +488,16 @@
       <item itemvalue="Spring Boot.OrderServerApplication" />
       <item itemvalue="Spring Boot.ProductServerApplication" />
       <item itemvalue="Spring Boot.SentinelDemoApplication" />
-      <item itemvalue="JUnit.OptialTest.testOptial" />
-      <item itemvalue="JUnit.DesignBookTest.simpleDemo" />
+      <item itemvalue="Spring Boot.AuthServerApplication" />
+      <item itemvalue="Spring Boot.YaoWebApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.threadTest" />
+        <item itemvalue="JUnit.SpringSecurityDemoApplicationTests" />
         <item itemvalue="JUnit.DesignBookTest.simpleDemo" />
         <item itemvalue="JUnit.OptialTest.testOptial" />
         <item itemvalue="Application.DemoTest" />
-        <item itemvalue="JUnit.supplyAsync.test02" />
-        <item itemvalue="Application.supplyAsync" />
       </list>
     </recent_temporary>
   </component>
@@ -435,7 +529,10 @@
       <workItem from="1648210580662" duration="4083000" />
       <workItem from="1648220028033" duration="42919000" />
       <workItem from="1650087288782" duration="4525000" />
-      <workItem from="1650092675460" duration="12420000" />
+      <workItem from="1650092675460" duration="16139000" />
+      <workItem from="1650983568926" duration="13067000" />
+      <workItem from="1651244455752" duration="13556000" />
+      <workItem from="1655821385440" duration="8770000" />
     </task>
     <task id="LOCAL-00001" summary="添加MQ笔记">
       <created>1641299273285</created>
@@ -738,7 +835,14 @@
       <option name="project" value="LOCAL" />
       <updated>1650466418805</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="feat: 递归demo">
+      <created>1650637349470</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1650637349470</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -809,19 +913,6 @@
           <url>file://$PROJECT_DIR$/JavaDemo/src/main/java/mybatis/mock/demo/optial/OptialTest.java</url>
           <line>30</line>
           <option name="timeStamp" value="25" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/JavaDemo/src/main/java/mybatis/mock/demo/optial/OptialTest.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/JavaDemo/src/main/java/mybatis/mock/demo/optial/OptialTest.java</url>
-          <line>25</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="27" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

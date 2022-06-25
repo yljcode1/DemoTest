@@ -1,0 +1,27 @@
+server:
+  port: 8095
+spring:
+  profiles:
+    active: dev
+  application:
+    name: product-server
+  cloud:
+    nacos:
+      username: ${nacos.username}
+      password: ${nacos.password}
+      discovery:
+        enabled: true
+        register-enabled: true
+        server-addr: ${nacos.server-addr}
+        namespace: ${nacos.namespace}
+        group: ${nacos.group}
+      config:
+        server-addr: ${nacos.server-addr}
+        namespace: ${nacos.namespace}
+        group: ${nacos.group}
+        file-extension: yaml
+        shared-configs:
+          - data-id: common-base.yaml
+            group: ${nacos.group}
+          - data-id: common-redis.yaml
+            group: ${nacos.group}
