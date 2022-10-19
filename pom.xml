@@ -30,6 +30,7 @@
         <module>order-server</module>
         <module>product-server</module>
         <module>auth-server</module>
+        <module>RabbitMQ-demo</module>
     </modules>
 
     <properties>
@@ -56,6 +57,8 @@
         <ognl.verion>3.2.6</ognl.verion>
         <hsqldb.version>2.4.0</hsqldb.version>
         <rocket-mq.verision>2.2.0</rocket-mq.verision>
+
+        <rabbit-amqp.version>2.2.0</rabbit-amqp.version>
 
         <elasticsearch-data.version>7.15.2</elasticsearch-data.version>
         <lombok.version>1.18.12</lombok.version>
@@ -233,7 +236,7 @@
                 <artifactId>xxl-job-core</artifactId>
                 <version>${xxl-job.version}</version>
             </dependency>
-
+            <!--rabbitmq-->
             <dependency>
                 <groupId>io.jsonwebtoken</groupId>
                 <artifactId>jjwt</artifactId>

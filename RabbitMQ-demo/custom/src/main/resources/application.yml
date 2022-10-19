@@ -1,0 +1,8 @@
+spring:
+  rabbitmq:
+    host: 159.138.141.95
+    port: 5672
+    username: itcast
+    password: 123321
+server:
+  port: 8105
