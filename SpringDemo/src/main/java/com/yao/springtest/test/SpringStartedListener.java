@@ -1,4 +1,4 @@
-package com.yao.springtest;
+package com.yao.springtest.test;
 
 import org.springframework.boot.context.event.ApplicationStartedEvent;
 import org.springframework.context.ApplicationListener;

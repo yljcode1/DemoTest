@@ -1,4 +1,4 @@
-package com.yao.springtest;
+package com.yao.springtest.test;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;

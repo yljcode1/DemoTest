@@ -1,6 +1,6 @@
-package com.yao.springtest;
+package com.yao.springtest.test;
 
-import com.yao.springdemo.event.CommonEvent;
+import com.yao.springtest.event.CommonEvent;
 import org.springframework.context.event.EventListener;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Component;

@@ -1,4 +1,4 @@
-package com.yao.springtest;
+package com.yao.springtest.test;
 
 import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;

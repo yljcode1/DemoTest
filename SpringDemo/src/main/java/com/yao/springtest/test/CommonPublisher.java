@@ -1,20 +1,21 @@
-package com.yao.springtest;
+package com.yao.springtest.test;
 
-import com.yao.springdemo.event.UserRegisterdEvent;
+import com.yao.springtest.event.CommonEvent;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.stereotype.Component;
 
 /**
- * @date: 2023-11-06
+ * @date: 2023-11-07
  * @author: yao
  */
 @Component
-public class Component1 {
+public class CommonPublisher {
     @Autowired
     private ApplicationEventPublisher publisher;
 
-    public void register() {
-        publisher.publishEvent(new UserRegisterdEvent(this));
+    public void publisher() {
+        publisher.publishEvent(new CommonEvent(this));
     }
+
 }

@@ -1,4 +1,4 @@
-package com.yao.springtest;
+package com.yao.springtest.test;
 
 import java.util.ArrayList;
 import java.util.List;

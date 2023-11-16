@@ -1,6 +1,6 @@
-package com.yao.springtest;
+package com.yao.springtest.test;
 
-import com.yao.springdemo.event.UserRegisterdEvent;
+import com.yao.springtest.event.UserRegisterdEvent;
 import org.springframework.context.event.EventListener;
 import org.springframework.stereotype.Component;
 
