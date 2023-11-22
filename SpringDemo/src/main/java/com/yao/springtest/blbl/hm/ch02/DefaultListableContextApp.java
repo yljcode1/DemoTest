@@ -8,6 +8,7 @@ import org.springframework.beans.factory.support.DefaultListableBeanFactory;
 import org.springframework.context.annotation.AnnotationConfigUtils;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.util.Map;
 
@@ -20,8 +21,8 @@ import java.util.Map;
 public class DefaultListableContextApp {
     public static void main(String[] args) {
         DefaultListableBeanFactory beanFactory = new DefaultListableBeanFactory();
-//        ClassPathXmlApplicationContext classPathXmlApplicationContext = new ClassPathXmlApplicationContext();
-//        classPathXmlApplicationContext.refresh();
+        ClassPathXmlApplicationContext classPathXmlApplicationContext = new ClassPathXmlApplicationContext();
+        classPathXmlApplicationContext.refresh();
         // 手动添加bean的定义,可以添加任意的类作为一个BeanDefinition,但是无法识别里面的@Bean注解等
         beanFactory.registerBeanDefinition("config", BeanDefinitionBuilder.genericBeanDefinition(Config.class).getBeanDefinition());
 
