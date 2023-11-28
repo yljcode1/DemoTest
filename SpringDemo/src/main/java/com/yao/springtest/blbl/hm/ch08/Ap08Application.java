@@ -24,7 +24,8 @@ public class Ap08Application {
         genericApplicationContext.registerBean("myBean", MyBean.class);
         genericApplicationContext.registerBean(AutowiredAnnotationBeanPostProcessor.class);
         genericApplicationContext.registerBean(CommonAnnotationBeanPostProcessor.class);
-        genericApplicationContext.refresh();
+        // Java配置类添加了bean工厂处理器后，传统接口方式的注入和初始化仍然成功，但是@Autowired和@PostConstruct的注入和初始化会失败
+        genericApplicationContext.refresh(); // 1、beanFactory后处理器，2、添加bean后处理器，3、初始化单例
         genericApplicationContext.close();
         /**
          * BeanFactoryAware、ApplicationContextAware、EmbeddedValueResolverAware的功能也能使用@Autowired就能实现，为啥需要Aware接口呢

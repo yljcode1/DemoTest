@@ -13,6 +13,8 @@ import org.springframework.context.ApplicationContextAware;
 import javax.annotation.PostConstruct;
 
 /**
+ * Aware接口回调
+ *
  * @date: 2023-11-20
  * @author: yao
  */
@@ -45,6 +47,6 @@ public class MyBean implements BeanNameAware, BeanFactoryAware, ApplicationConte
 
     @PostConstruct
     public void init() {
-        log.debug("当前bean "+this+"使用postConstruct 初始化");
+        log.debug("当前bean " + this + "使用postConstruct 初始化");
     }
 }

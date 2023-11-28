@@ -2,20 +2,22 @@ package com.yao.springtest.blbl.hm.ch07;
 
 import cn.hutool.core.util.ObjectUtil;
 import lombok.extern.slf4j.Slf4j;
-import org.mybatis.spring.mapper.MapperScannerConfigurer;
 import org.springframework.beans.factory.support.AbstractBeanDefinition;
 import org.springframework.beans.factory.support.BeanDefinitionBuilder;
 import org.springframework.context.annotation.AnnotationBeanNameGenerator;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.ConfigurationClassPostProcessor;
 import org.springframework.context.support.GenericApplicationContext;
 import org.springframework.core.annotation.AnnotationUtils;
+import org.springframework.core.io.ClassPathResource;
 import org.springframework.core.io.Resource;
+import org.springframework.core.type.MethodMetadata;
 import org.springframework.core.type.classreading.CachingMetadataReaderFactory;
 import org.springframework.core.type.classreading.MetadataReader;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
+import java.util.Set;
 
 /**
  * @date: 2023-11-18
@@ -28,12 +30,27 @@ public class ConfigurationPostProcessorTest {
         GenericApplicationContext context = new GenericApplicationContext();
         context.registerBean("config", Config.class);
 //        context.registerBean(ConfigurationClassPostProcessor.class);
-        context.registerBean(ConfigurationClassPostProcessor.class);//@ComponentScan @Bean @Import @ImportResource
-        context.registerBean(MapperScannerConfigurer.class, bd -> {
-            bd.getPropertyValues().add("basePackage", "com.yao.springtest.blbl.hm.ch07.mapper");
-        });
+//        context.registerBean(ConfigurationClassPostProcessor.class);//@ComponentScan @Bean @Import @ImportResource
+//        context.registerBean(MapperScannerConfigurer.class, bd -> {
+//            bd.getPropertyValues().add("basePackage", "com.yao.springtest.blbl.hm.ch07.mapper");
+//        });
 //        context.refresh();
 //        context.registerBean(ConfigurationClassPostProcessor.class);
+        CachingMetadataReaderFactory factory = new CachingMetadataReaderFactory();
+        MetadataReader metaReader = factory.getMetadataReader(new ClassPathResource("com/yao/springtest/blbl/hm/ch07/Config.java"));
+        Set<MethodMetadata> methods = metaReader.getAnnotationMetadata().getAnnotatedMethods(Bean.class.getName());
+        for (MethodMetadata method : methods) {
+            System.out.println(method);
+            String initMethod = method.getAnnotationAttributes(Bean.class.getName()).get("initMethod").toString();
+            BeanDefinitionBuilder beanDefinitionBuilder = BeanDefinitionBuilder.genericBeanDefinition();
+            beanDefinitionBuilder.setFactoryMethodOnBean(method.getMethodName(), "config");
+            beanDefinitionBuilder.setAutowireMode(AbstractBeanDefinition.AUTOWIRE_CONSTRUCTOR);
+            if (initMethod.length() > 0) {
+                beanDefinitionBuilder.setInitMethodName(initMethod);
+            }
+            AbstractBeanDefinition beanDefinition = beanDefinitionBuilder.getBeanDefinition();
+            context.getDefaultListableBeanFactory().registerBeanDefinition(method.getMethodName(), beanDefinition);
+        }
 
         ComponentScan componentScanAnno = AnnotationUtils.findAnnotation(Config.class, ComponentScan.class);
         if (ObjectUtil.isNotEmpty(componentScanAnno)) {
