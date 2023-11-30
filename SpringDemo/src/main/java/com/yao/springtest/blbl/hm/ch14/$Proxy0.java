@@ -2,6 +2,9 @@ package com.yao.springtest.blbl.hm.ch14;
 
 import com.yao.springtest.blbl.hm.ch14.A14.InvocationHandler;
 
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+
 /**
  * 模仿代理类
  *
@@ -23,6 +26,13 @@ public class $Proxy0 implements A14.Foo {
 //        System.out.println("before");
 //        // 2、调用目标
 //        new A14.Target().foo();
-        handler.invoke();
+        Method foo = null;
+        try {
+            foo = A14.Foo.class.getDeclaredMethod("foo");
+            handler.invoke(foo, new Object[0]);
+
+        } catch (NoSuchMethodException | InvocationTargetException | IllegalAccessException e) {
+            throw new RuntimeException(e);
+        }
     }
 }

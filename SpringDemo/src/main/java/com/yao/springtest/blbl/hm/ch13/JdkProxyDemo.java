@@ -1,5 +1,6 @@
 package com.yao.springtest.blbl.hm.ch13;
 
+import java.io.IOException;
 import java.lang.reflect.Proxy;
 
 /**
@@ -21,7 +22,7 @@ public class JdkProxyDemo {
 
     //jdk 只能正对接口代理
     // cglib
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         Target target = new Target();
         ClassLoader loader = JdkProxyDemo.class.getClassLoader();
         Foo foo = (Foo) Proxy.newProxyInstance(loader, new Class[]{Foo.class}, (proxy, method, args1) -> {
@@ -35,5 +36,6 @@ public class JdkProxyDemo {
 //            return null;
         });
         foo.foo();
+        System.in.read();
     }
 }

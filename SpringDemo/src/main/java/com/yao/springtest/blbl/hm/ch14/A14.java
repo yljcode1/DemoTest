@@ -1,5 +1,9 @@
 package com.yao.springtest.blbl.hm.ch14;
 
+import java.io.IOException;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+
 /**
  * 模拟jdk实现反射
  *
@@ -12,7 +16,7 @@ public class A14 {
     }
 
     interface InvocationHandler {
-        void invoke();
+        void invoke(Method foo, Object[] args) throws InvocationTargetException, IllegalAccessException;
     }
 
     static class Target implements Foo {
@@ -22,13 +26,20 @@ public class A14 {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
+        Target target = new Target();
         Foo proxy = new $Proxy0(new InvocationHandler() {
             @Override
-            public void invoke() {
+            public void invoke(Method foo, Object[] objects) throws InvocationTargetException, IllegalAccessException {
+                // 无法指定具体的代理方法
+                System.out.println("before");
+//                new Target().foo();
+                Object result = foo.invoke(target, objects);
+                System.out.println("after");
 
             }
         });
         proxy.foo();
+        System.in.read();
     }
 }
