@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
 /**
+ * 测试不同scope
  * @date: 2023-11-28
  * @author: yao
  */
@@ -29,8 +30,8 @@ public class MyController {
     public String test(HttpServletRequest request, HttpSession session) {
         ServletContext servletContext = request.getServletContext();
         String sb = "<ul>" +
-                "<li>" + "request scope" + request + "</li>" +
-                "<li>" + "session scope" + session + "</li>" +
+                "<li>" + "request scope" + this.request + "</li>" +
+                "<li>" + "session scope" + this.session + "</li>" +
                 "<li>" + "application scope" + application + "</li>" +
                 "</ul>";
         return sb;

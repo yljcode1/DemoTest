@@ -112,16 +112,12 @@ class D extends B2 {
     }
 }
 
-class E extends D {
-
-}
-
-class E1 extends E {
+class E1 extends D {
 
 }
 
 class D2 {
-    void hello(E e) {
+    void hello(E1 e) {
         e.aa();
     }
 }
