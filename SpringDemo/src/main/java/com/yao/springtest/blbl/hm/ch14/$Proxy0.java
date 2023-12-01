@@ -6,7 +6,7 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 /**
- * 模仿代理类
+ * 模仿JDK代理类
  *
  * @date: 2023-11-30
  * @author: yao
