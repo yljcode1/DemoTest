@@ -10,5 +10,5 @@ import org.springframework.web.bind.annotation.GetMapping;
 @FeignClient(value = "order-service")
 public interface OrderFegin {
     @GetMapping("order/create")
-    public Boolean create(Long userId, Long productId);
+    Boolean create(Long userId, Long productId);
 }
